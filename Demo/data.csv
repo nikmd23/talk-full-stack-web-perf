@@ -1,161 +1,161 @@
-Id,League,Team,TeamSlug,Mascot,MascotSlug,IsChampion,TwitterHandle
-1,International,Buffalo Bisons,buffalo-bisons,Celery,celery,0,BisonsCelery
-2,International,Charlotte Knights,charlotte-knights,Homer the Dragon,homer-the-dragon,0,
-3,International,Columbus Clippers,columbus-clippers,LouSeal,louseal,1,ClippersLouSeal
-4,International,Durham Bulls,durham-bulls,Wool E. Bull,wool-e-bull,0,WoolEBull
-5,International,Gwinnett Braves,gwinnett-braves,Chopper,chopper,0,ChopperGBraves
-6,International,Indianapolis Indians,indianapolis-indians,Rowdie,rowdie,0,RowdieBear
-7,International,Lehigh Valley IronPigs,lehigh-valley-ironpigs,Hambone,hambone,0,Go_Hambone
-8,International,Louisville Bats,louisville-bats,Buddy Bat,buddy-bat,0,buddybat
-9,International,Norfolk Tides,norfolk-tides,Rip Tide,rip-tide,0,therealriptide
-10,International,Pawtucket Red Sox,pawtucket-red-sox,Paws,paws,0,
-11,International,Rochester Red Wings,rochester-red-wings,Spikes,spikes,0,SpikesAndMittsy
-12,International,Scranton/WB RailRiders,scrantonwb-railriders,Quills,quills,0,
-13,International,Syracuse Chiefs,syracuse-chiefs,Scooch,scooch,0,
-14,International,Toledo Mud Hens,toledo-mud-hens,Muddy the Mud Hen,muddy-the-mud-hen,0,
-15,Pacific Coast,Albuquerque Isotopes,albuquerque-isotopes,Orbit,orbit,0,Orbit_Isotopes
-16,Pacific Coast,Colorado Springs Sky Sox,colorado-springs-sky-sox,Sox the Fox,sox-the-fox,0,
-17,Pacific Coast,Fresno Grizzlies,fresno-grizzlies,Parker,parker,1,TheRealParkerB
-18,Pacific Coast,Iowa Cubs,iowa-cubs,Cubbie Bear,cubbie-bear,0,
-19,Pacific Coast,Las Vegas 51s,las-vegas-51s,Cosmo,cosmo,0,
-20,Pacific Coast,Memphis Redbirds,memphis-redbirds,Rockey Redbird,rockey-redbird,0,
-21,Pacific Coast,Nashville Sounds,nashville-sounds,Ozzie,ozzie,0,OzzieTheMascot
-22,Pacific Coast,New Orleans Zephyrs,new-orleans-zephyrs,Boudreaux D. Nutria,boudreaux-d-nutria,0,
-23,Pacific Coast,Oklahoma City RedHawks,oklahoma-city-redhawks,Cooper,cooper,0,
-24,Pacific Coast,Omaha Storm Chasers,omaha-storm-chasers,Stormy,stormy,0,
-25,Pacific Coast,Reno Aces,reno-aces,Archie,archie,0,archieaceball
-26,Pacific Coast,Round Rock Express,round-rock-express,Spike,spike,0,Spike_RRE
-27,Pacific Coast,Sacramento River Cats,sacramento-river-cats,Dinger,dinger,0,RCDinger
-28,Pacific Coast,Salt Lake Bees,salt-lake-bees,Bumble,bumble,0,
-29,Pacific Coast,Tacoma Rainiers,tacoma-rainiers,Rhubarb the Reindeer,rhubarb-the-reindeer,0,RainiersRhubarb
-30,Pacific Coast,Tucson Padres,tucson-padres,Kino Bambino,kino-bambino,0,padresmascot
-31,Eastern,Akron Aeros,akron-aeros,Orbit,orbit-2,0,AerosOrbit
-32,Eastern,Altoona Curve,altoona-curve,Steamer,steamer,0,
-33,Eastern,Binghamton Mets,binghamton-mets,Hickory and the Hot Dog Horse,hickory-and-the-hot-dog-horse,0,thehotdoghorse
-34,Eastern,Bowie Baysox,bowie-baysox,Louie,louie,0,
-35,Eastern,Erie SeaWolves,erie-seawolves,C. Wolf,c-wolf,1,
-36,Eastern,Harrisburg Senators,harrisburg-senators,Rascal,rascal,0,sensrascal00
-37,Eastern,New Britain Rock Cats,new-britain-rock-cats,Rocky,rocky,0,OfficialRocky9
-38,Eastern,New Hampshire Fisher Cats,new-hampshire-fisher-cats,Fungo the Fisher Cat,fungo-the-fisher-cat,0,
-39,Eastern,Portland Sea Dogs,portland-sea-dogs,Slugger the Sea Dog,slugger-the-sea-dog,0,Slugger_SeaDog
-40,Eastern,Reading Fightin Phils,reading-fightin-phils,Crazy Hot Dog Vendor,crazy-hot-dog-vendor,0,CrazyHotDogVndr
-41,Eastern,Richmond Flying Squirrels,richmond-flying-squirrels,Nutzy,nutzy,0,
-42,Eastern,Trenton Thunder,trenton-thunder,Boomer,boomer,0,
-43,Southern,Birmingham Barons,birmingham-barons,Babe Ruff,babe-ruff,0,
-44,Southern,Chattanooga Lookouts,chattanooga-lookouts,Looie the Lookout,looie-the-lookout,0,
-45,Southern,Huntsville Stars,huntsville-stars,Homer the Pole Cat,homer-the-pole-cat,0,homer_polecat
-46,Southern,Jackson Generals,jackson-generals,Chimpy,chimpy,0,
-47,Southern,Jacksonville Suns,jacksonville-suns,Southpaw,southpaw,0,
-48,Southern,Mississippi Braves,mississippi-braves,Trusty,trusty,0,
-49,Southern,Mobile BayBears,mobile-baybears,Teddy,teddy,0,
-50,Southern,Montgomery Biscuits,montgomery-biscuits,Big Mo.,big-mo,0,
-51,Southern,Pensacola Blue Wahoos,pensacola-blue-wahoos,Kazoo,kazoo,1,
-52,Southern,Tennessee Smokies,tennessee-smokies,Slugger,slugger,0,
-53,Texas,Arkansas Travelers,arkansas-travelers,Shelly the Horse,shelly-the-horse,0,
-54,Texas,Corpus Christi Hooks,corpus-christi-hooks,Rusty Hook,rusty-hook,0,
-55,Texas,Frisco RoughRiders,frisco-roughriders,Deuce,deuce,0,
-56,Texas,Midland RockHounds,midland-rockhounds,Rocky RockHound,rocky-rockhound,0,
-57,Texas,NW Arkansas Naturals,nw-arkansas-naturals,Sinker the Lake Creature,sinker-the-lake-creature,0,
-58,Texas,San Antonio Missions,san-antonio-missions,Ballapeno,ballapeno,1,Ballapeno
-59,Texas,Springfield Cardinals,springfield-cardinals,Louie,louie-2,0,
-60,Texas,Tulsa Drillers,tulsa-drillers,Hornsby,hornsby,0,Therealhornsby
-61,California,Bakersfield Blaze,bakersfield-blaze,Torch,torch,0,
-62,California,High Desert Mavericks,high-desert-mavericks,Wooly Bully,wooly-bully,0,woolybullymavs
-63,California,Inland Empire 66ers,inland-empire-66ers,Bernie,bernie,0,
-64,California,Lake Elsinore Storm,lake-elsinore-storm,Thunder,thunder,0,ThundertheDog
-65,California,Lancaster JetHawks,lancaster-jethawks,KaBoom!,kaboom,0,
-66,California,Modesto Nuts,modesto-nuts,Wally the Walnut,wally-the-walnut,0,
-67,California,Rancho Cuca. Quakes,rancho-cuca-quakes,Tremor,tremor,0,
-68,California,San Jose Giants,san-jose-giants,Gigante,gigante,1,
-69,California,Stockton Ports,stockton-ports,Splash,splash,0,
-70,California,Visalia Rawhide,visalia-rawhide,Tipper T. Bull,tipper-t-bull,0,
-71,Carolina,Carolina Mudcats,carolina-mudcats,Muddy the Mudcat,muddy-the-mudcat,0,muddythemudcat
-72,Carolina,Frederick Keys,frederick-keys,Keyote,keyote,0,
-73,Carolina,Lynchburg Hillcats,lynchburg-hillcats,Southpaw,southpaw-2,0,
-74,Carolina,Myrtle Beach Pelicans,myrtle-beach-pelicans,Splash Pelican,splash-pelican,1,SplashPelican
-75,Carolina,Potomac Nationals,potomac-nationals,Uncle Slam,uncle-slam,0,
-76,Carolina,Salem Red Sox,salem-red-sox,Mugsy,mugsy,0,SalemSoxMugsy
-77,Carolina,Wilmington Blue Rocks,wilmington-blue-rocks,Rocky Bluewinkle,rocky-bluewinkle,0,
-78,Carolina,Winston-Salem Dash,winston-salem-dash,Bolt,bolt,0,
-79,Florida State,Bradenton Marauders,bradenton-marauders,Marty the Marauder,marty-the-marauder,0,
-80,Florida State,Brevard County Manatees,brevard-county-manatees,Manny the Manatee,manny-the-manatee,0,manny_manatee
-81,Florida State,Charlotte Stone Crabs,charlotte-stone-crabs,Stoney,stoney,0,
-82,Florida State,Clearwater Threshers,clearwater-threshers,Phinley,phinley,1,PhinleyThresher
-83,Florida State,Daytona Cubs,daytona-cubs,Cubby,cubby,0,DCubsCubbysCrew
-84,Florida State,Dunedin Blue Jays,dunedin-blue-jays,D-Jay,d-jay,0,djaybluejay
-85,Florida State,Fort Myers Miracle,fort-myers-miracle,Miss-A-Miracle,miss-a-miracle,0,
-86,Florida State,Jupiter Hammerheads,jupiter-hammerheads,Hamilton R. Head,hamilton-r-head,0,
-87,Florida State,Lakeland Flying Tigers,lakeland-flying-tigers,Ace,ace,0,
-88,Florida State,Palm Beach Cardinals,palm-beach-cardinals,Robbie the Redbird,robbie-the-redbird,0,
-89,Florida State,St. Lucie Mets,st-lucie-mets,Klutch,klutch,0,Klutch_STLMets
-90,Florida State,Tampa Yankees,tampa-yankees,Blue,blue,0,Blue_TYMascot
-91,Midwest,Beloit Snappers,beloit-snappers,Snappy D. Turtle,snappy-d-turtle,0,
-92,Midwest,Bowling Green Hot Rods,bowling-green-hot-rods,Roscoe the Grease Monkey,roscoe-the-grease-monkey,0,
-93,Midwest,Burlington Bees,burlington-bees,Buzz,buzz,0,
-94,Midwest,Cedar Rapids Kernels,cedar-rapids-kernels,Mr. Shucks,mr-shucks,0,
-95,Midwest,Clinton LumberKings,clinton-lumberkings,Louie The LumberKing,louie-the-lumberking,0,
-96,Midwest,Dayton Dragons,dayton-dragons,Heater,heater,0,
-97,Midwest,Fort Wayne TinCaps,fort-wayne-tincaps,Johnny TinCap,johnny-tincap,0,
-98,Midwest,Great Lakes Loons,great-lakes-loons,Lou E. Loon,lou-e-loon,0,LouELoon
-99,Midwest,Kane County Cougars,kane-county-cougars,Ozzie T. Cougar,ozzie-t-cougar,0,
-100,Midwest,Lake County Captains,lake-county-captains,Skipper,skipper,0,
-101,Midwest,Lansing Lugnuts,lansing-lugnuts,Big Lug,big-lug,0,
-102,Midwest,Peoria Chiefs,peoria-chiefs,Homer,homer,1,HomerPeoChiefs
-103,Midwest,Quad Cities River Bandits,quad-cities-river-bandits,Rascal,rascal-2,0,
-104,Midwest,South Bend Silver Hawks,south-bend-silver-hawks,Swoop,swoop,0,SilverSwoop
-105,Midwest,West Michigan Whitecaps,west-michigan-whitecaps,Crash the River Rascal,crash-the-river-rascal,0,
-106,Midwest,Wisconsin Timber Rattlers,wisconsin-timber-rattlers,Fang T. Rattler,fang-t-rattler,0,Fang_T_Rattler
-107,South Atlantic,Asheville Tourists,asheville-tourists,Mr. Moon,mr-moon,0,
-108,South Atlantic,Augusta GreenJackets,augusta-greenjackets,Auggie,auggie,0,
-109,South Atlantic,Charleston RiverDogs,charleston-riverdogs,Charlie T. RiverDog,charlie-t-riverdog,0,CharlieRiverDog
-110,South Atlantic,Delmarva Shorebirds,delmarva-shorebirds,Sherman the Shorebird,sherman-the-shorebird,0,
-111,South Atlantic,Greensboro Grasshoppers,greensboro-grasshoppers,Guilford the Grasshopper,guilford-the-grasshopper,0,
-112,South Atlantic,Greenville Drive,greenville-drive,Reedy Rip'It,reedy-ripit,0,ReedyRipIt
-113,South Atlantic,Hagerstown Suns,hagerstown-suns,Woolie,woolie,0,
-114,South Atlantic,Hickory Crawdads,hickory-crawdads,Conrad the Crawdad,conrad-the-crawdad,0,
-115,South Atlantic,Kannapolis Intimidators,kannapolis-intimidators,Tim E. Gator,tim-e-gator,0,
-116,South Atlantic,Lakewood BlueClaws,lakewood-blueclaws,Buster,buster,0,BlueClawsBuster
-117,South Atlantic,Lexington Legends,lexington-legends,Big L,big-l,0,
-118,South Atlantic,Rome Braves,rome-braves,Romey,romey,0,
-119,South Atlantic,Savannah Sand Gnats,savannah-sand-gnats,Gnate the Gnat,gnate-the-gnat,1,gnatethegnat
-120,South Atlantic,West Virginia Power,west-virginia-power,Chuck,chuck,0,wv_powerCHUCK
-121,New York-Penn,Aberdeen IronBirds,aberdeen-ironbirds,Ferrous,ferrous,1,
-122,New York-Penn,Auburn Doubledays,auburn-doubledays,Abner,abner,0,
-123,New York-Penn,Batavia Muckdogs,batavia-muckdogs,Homer,homer-2,0,
-124,New York-Penn,Brooklyn Cyclones,brooklyn-cyclones,Sandy the Seagull,sandy-the-seagull,0,SandytheSeagull
-125,New York-Penn,Connecticut Tigers,connecticut-tigers,C.T. the Tiger,ct-the-tiger,0,
-126,New York-Penn,Hudson Valley Renegades,hudson-valley-renegades,Rascal,rascal-3,0,HVRascal
-127,New York-Penn,Jamestown Jammers,jamestown-jammers,Bubba Grape,bubba-grape,0,
-128,New York-Penn,Lowell Spinners,lowell-spinners,Canaligator,canaligator,0,Canaligator
-129,New York-Penn,Mahoning Valley Scrappers,mahoning-valley-scrappers,Scrappy,scrappy,0,
-130,New York-Penn,State College Spikes,state-college-spikes,Ike the Spike,ike-the-spike,0,
-131,New York-Penn,Staten Island Yankees,staten-island-yankees,Scooter the Holy Cow,scooter-the-holy-cow,0,
-132,New York-Penn,Tri-City ValleyCats,tri-city-valleycats,South Paw,south-paw,0,
-133,New York-Penn,Vermont Lake Monsters,vermont-lake-monsters,Champ,champ,0,ChampVLM
-134,New York-Penn,Williamsport Crosscutters,williamsport-crosscutters,Boomer,boomer-2,0,thegreatboomer
-135,Northwest,Boise Hawks,boise-hawks,Humphrey Hawk,humphrey-hawk,0,HumphreyTheHawk
-136,Northwest,Eugene Emeralds,eugene-emeralds,Sluggo,sluggo,0,SluggoEmeralds
-137,Northwest,Everett AquaSox,everett-aquasox,Webbly,webbly,0,
-138,Northwest,Hillsboro Hops,hillsboro-hops,Barley,barley,1,BarleytheHop
-139,Northwest,Salem-Keizer Volcanoes,salem-keizer-volcanoes,Crater,crater,0,
-140,Northwest,Spokane Indians,spokane-indians,Otto The Spokanasaurus,otto-the-spokanasaurus,0,
-141,Northwest,Tri-City Dust Devils,tri-city-dust-devils,Dusty,dusty,0,
-142,Northwest,Vancouver Canadians,vancouver-canadians,Bob Brown Bear,bob-brown-bear,0,bobbrownbear
-143,Appalachian,Bluefield Blue Jays,bluefield-blue-jays,Baby Jay,baby-jay,0,
-144,Appalachian,Bristol White Sox,bristol-white-sox,Dingbat,dingbat,0,DingbatBristol
-145,Appalachian,Burlington Royals,burlington-royals,Bingo,bingo,0,
-146,Appalachian,Danville Braves,danville-braves,Blooper,blooper,0,
-147,Appalachian,Elizabethton Twins,elizabethton-twins,Rookie,rookie,0,
-148,Appalachian,Greeneville Astros,greeneville-astros,Tennessee Tess,tennessee-tess,0,
-149,Appalachian,Johnson City Cardinals,johnson-city-cardinals,Jay Cee,jay-cee,0,
-150,Appalachian,Kingsport Mets,kingsport-mets,Slider,slider,0,
-151,Appalachian,Princeton Rays,princeton-rays,Roscoe The P-Ray Rooster,roscoe-the-p-ray-rooster,1,
-152,Appalachian,Pulaski Mariners,pulaski-mariners,Slyder,slyder,0,
-153,Pioneer,Billings Mustangs,billings-mustangs,Homer,homer-3,0,HomerMustang
-154,Pioneer,Grand Junction Rockies,grand-junction-rockies,Corky,corky,0,corkythecoyote
-155,Pioneer,Great Falls Voyagers,great-falls-voyagers,Orbit,orbit-3,1,
-156,Pioneer,Helena Brewers,helena-brewers,Clark the Cougar,clark-the-cougar,0,
-157,Pioneer,Idaho Falls Chukars,idaho-falls-chukars,Charlie the Chukar,charlie-the-chukar,0,
-158,Pioneer,Missoula Osprey,missoula-osprey,Ollie Osprey,ollie-osprey,0,
-159,Pioneer,Ogden Raptors,ogden-raptors,Oggie,oggie,0,
-160,Pioneer,Orem Owlz,orem-owlz,Hootz,hootz,0,
+Id,League,LeagueSlug,Team,TeamSlug,Mascot,MascotSlug,IsChampion,TwitterHandle
+1,International,international,Buffalo Bisons,buffalo-bisons,Celery,celery,0,BisonsCelery
+2,International,international,Charlotte Knights,charlotte-knights,Homer the Dragon,homer-the-dragon,0,
+3,International,international,Columbus Clippers,columbus-clippers,LouSeal,louseal,1,ClippersLouSeal
+4,International,international,Durham Bulls,durham-bulls,Wool E. Bull,wool-e-bull,0,WoolEBull
+5,International,international,Gwinnett Braves,gwinnett-braves,Chopper,chopper,0,ChopperGBraves
+6,International,international,Indianapolis Indians,indianapolis-indians,Rowdie,rowdie,0,RowdieBear
+7,International,international,Lehigh Valley IronPigs,lehigh-valley-ironpigs,Hambone,hambone,0,Go_Hambone
+8,International,international,Louisville Bats,louisville-bats,Buddy Bat,buddy-bat,0,buddybat
+9,International,international,Norfolk Tides,norfolk-tides,Rip Tide,rip-tide,0,therealriptide
+10,International,international,Pawtucket Red Sox,pawtucket-red-sox,Paws,paws,0,
+11,International,international,Rochester Red Wings,rochester-red-wings,Spikes,spikes,0,SpikesAndMittsy
+12,International,international,Scranton/WB RailRiders,scrantonwb-railriders,Quills,quills,0,
+13,International,international,Syracuse Chiefs,syracuse-chiefs,Scooch,scooch,0,
+14,International,international,Toledo Mud Hens,toledo-mud-hens,Muddy the Mud Hen,muddy-the-mud-hen,0,
+15,Pacific Coast,pacific-coast,Albuquerque Isotopes,albuquerque-isotopes,Orbit,orbit,0,Orbit_Isotopes
+16,Pacific Coast,pacific-coast,Colorado Springs Sky Sox,colorado-springs-sky-sox,Sox the Fox,sox-the-fox,0,
+17,Pacific Coast,pacific-coast,Fresno Grizzlies,fresno-grizzlies,Parker,parker,1,TheRealParkerB
+18,Pacific Coast,pacific-coast,Iowa Cubs,iowa-cubs,Cubbie Bear,cubbie-bear,0,
+19,Pacific Coast,pacific-coast,Las Vegas 51s,las-vegas-51s,Cosmo,cosmo,0,
+20,Pacific Coast,pacific-coast,Memphis Redbirds,memphis-redbirds,Rockey Redbird,rockey-redbird,0,
+21,Pacific Coast,pacific-coast,Nashville Sounds,nashville-sounds,Ozzie,ozzie,0,OzzieTheMascot
+22,Pacific Coast,pacific-coast,New Orleans Zephyrs,new-orleans-zephyrs,Boudreaux D. Nutria,boudreaux-d-nutria,0,
+23,Pacific Coast,pacific-coast,Oklahoma City RedHawks,oklahoma-city-redhawks,Cooper,cooper,0,
+24,Pacific Coast,pacific-coast,Omaha Storm Chasers,omaha-storm-chasers,Stormy,stormy,0,
+25,Pacific Coast,pacific-coast,Reno Aces,reno-aces,Archie,archie,0,archieaceball
+26,Pacific Coast,pacific-coast,Round Rock Express,round-rock-express,Spike,spike,0,Spike_RRE
+27,Pacific Coast,pacific-coast,Sacramento River Cats,sacramento-river-cats,Dinger,dinger,0,RCDinger
+28,Pacific Coast,pacific-coast,Salt Lake Bees,salt-lake-bees,Bumble,bumble,0,
+29,Pacific Coast,pacific-coast,Tacoma Rainiers,tacoma-rainiers,Rhubarb the Reindeer,rhubarb-the-reindeer,0,RainiersRhubarb
+30,Pacific Coast,pacific-coast,Tucson Padres,tucson-padres,Kino Bambino,kino-bambino,0,padresmascot
+31,Eastern,eastern,Akron Aeros,akron-aeros,Orbit,orbit-2,0,AerosOrbit
+32,Eastern,eastern,Altoona Curve,altoona-curve,Steamer,steamer,0,
+33,Eastern,eastern,Binghamton Mets,binghamton-mets,Hickory and the Hot Dog Horse,hickory-and-the-hot-dog-horse,0,thehotdoghorse
+34,Eastern,eastern,Bowie Baysox,bowie-baysox,Louie,louie,0,
+35,Eastern,eastern,Erie SeaWolves,erie-seawolves,C. Wolf,c-wolf,1,
+36,Eastern,eastern,Harrisburg Senators,harrisburg-senators,Rascal,rascal,0,sensrascal00
+37,Eastern,eastern,New Britain Rock Cats,new-britain-rock-cats,Rocky,rocky,0,OfficialRocky9
+38,Eastern,eastern,New Hampshire Fisher Cats,new-hampshire-fisher-cats,Fungo the Fisher Cat,fungo-the-fisher-cat,0,
+39,Eastern,eastern,Portland Sea Dogs,portland-sea-dogs,Slugger the Sea Dog,slugger-the-sea-dog,0,Slugger_SeaDog
+40,Eastern,eastern,Reading Fightin Phils,reading-fightin-phils,Crazy Hot Dog Vendor,crazy-hot-dog-vendor,0,CrazyHotDogVndr
+41,Eastern,eastern,Richmond Flying Squirrels,richmond-flying-squirrels,Nutzy,nutzy,0,
+42,Eastern,eastern,Trenton Thunder,trenton-thunder,Boomer,boomer,0,
+43,Southern,southern,Birmingham Barons,birmingham-barons,Babe Ruff,babe-ruff,0,
+44,Southern,southern,Chattanooga Lookouts,chattanooga-lookouts,Looie the Lookout,looie-the-lookout,0,
+45,Southern,southern,Huntsville Stars,huntsville-stars,Homer the Pole Cat,homer-the-pole-cat,0,homer_polecat
+46,Southern,southern,Jackson Generals,jackson-generals,Chimpy,chimpy,0,
+47,Southern,southern,Jacksonville Suns,jacksonville-suns,Southpaw,southpaw,0,
+48,Southern,southern,Mississippi Braves,mississippi-braves,Trusty,trusty,0,
+49,Southern,southern,Mobile BayBears,mobile-baybears,Teddy,teddy,0,
+50,Southern,southern,Montgomery Biscuits,montgomery-biscuits,Big Mo.,big-mo,0,
+51,Southern,southern,Pensacola Blue Wahoos,pensacola-blue-wahoos,Kazoo,kazoo,1,
+52,Southern,southern,Tennessee Smokies,tennessee-smokies,Slugger,slugger,0,
+53,Texas,texas,Arkansas Travelers,arkansas-travelers,Shelly the Horse,shelly-the-horse,0,
+54,Texas,texas,Corpus Christi Hooks,corpus-christi-hooks,Rusty Hook,rusty-hook,0,
+55,Texas,texas,Frisco RoughRiders,frisco-roughriders,Deuce,deuce,0,
+56,Texas,texas,Midland RockHounds,midland-rockhounds,Rocky RockHound,rocky-rockhound,0,
+57,Texas,texas,NW Arkansas Naturals,nw-arkansas-naturals,Sinker the Lake Creature,sinker-the-lake-creature,0,
+58,Texas,texas,San Antonio Missions,san-antonio-missions,Ballapeno,ballapeno,1,Ballapeno
+59,Texas,texas,Springfield Cardinals,springfield-cardinals,Louie,louie-2,0,
+60,Texas,texas,Tulsa Drillers,tulsa-drillers,Hornsby,hornsby,0,Therealhornsby
+61,California,california,Bakersfield Blaze,bakersfield-blaze,Torch,torch,0,
+62,California,california,High Desert Mavericks,high-desert-mavericks,Wooly Bully,wooly-bully,0,woolybullymavs
+63,California,california,Inland Empire 66ers,inland-empire-66ers,Bernie,bernie,0,
+64,California,california,Lake Elsinore Storm,lake-elsinore-storm,Thunder,thunder,0,ThundertheDog
+65,California,california,Lancaster JetHawks,lancaster-jethawks,KaBoom!,kaboom,0,
+66,California,california,Modesto Nuts,modesto-nuts,Wally the Walnut,wally-the-walnut,0,
+67,California,california,Rancho Cuca. Quakes,rancho-cuca-quakes,Tremor,tremor,0,
+68,California,california,San Jose Giants,san-jose-giants,Gigante,gigante,1,
+69,California,california,Stockton Ports,stockton-ports,Splash,splash,0,
+70,California,california,Visalia Rawhide,visalia-rawhide,Tipper T. Bull,tipper-t-bull,0,
+71,Carolina,carolina,Carolina Mudcats,carolina-mudcats,Muddy the Mudcat,muddy-the-mudcat,0,muddythemudcat
+72,Carolina,carolina,Frederick Keys,frederick-keys,Keyote,keyote,0,
+73,Carolina,carolina,Lynchburg Hillcats,lynchburg-hillcats,Southpaw,southpaw-2,0,
+74,Carolina,carolina,Myrtle Beach Pelicans,myrtle-beach-pelicans,Splash Pelican,splash-pelican,1,SplashPelican
+75,Carolina,carolina,Potomac Nationals,potomac-nationals,Uncle Slam,uncle-slam,0,
+76,Carolina,carolina,Salem Red Sox,salem-red-sox,Mugsy,mugsy,0,SalemSoxMugsy
+77,Carolina,carolina,Wilmington Blue Rocks,wilmington-blue-rocks,Rocky Bluewinkle,rocky-bluewinkle,0,
+78,Carolina,carolina,Winston-Salem Dash,winston-salem-dash,Bolt,bolt,0,
+79,Florida State,florida-state,Bradenton Marauders,bradenton-marauders,Marty the Marauder,marty-the-marauder,0,
+80,Florida State,florida-state,Brevard County Manatees,brevard-county-manatees,Manny the Manatee,manny-the-manatee,0,manny_manatee
+81,Florida State,florida-state,Charlotte Stone Crabs,charlotte-stone-crabs,Stoney,stoney,0,
+82,Florida State,florida-state,Clearwater Threshers,clearwater-threshers,Phinley,phinley,1,PhinleyThresher
+83,Florida State,florida-state,Daytona Cubs,daytona-cubs,Cubby,cubby,0,DCubsCubbysCrew
+84,Florida State,florida-state,Dunedin Blue Jays,dunedin-blue-jays,D-Jay,d-jay,0,djaybluejay
+85,Florida State,florida-state,Fort Myers Miracle,fort-myers-miracle,Miss-A-Miracle,miss-a-miracle,0,
+86,Florida State,florida-state,Jupiter Hammerheads,jupiter-hammerheads,Hamilton R. Head,hamilton-r-head,0,
+87,Florida State,florida-state,Lakeland Flying Tigers,lakeland-flying-tigers,Ace,ace,0,
+88,Florida State,florida-state,Palm Beach Cardinals,palm-beach-cardinals,Robbie the Redbird,robbie-the-redbird,0,
+89,Florida State,florida-state,St. Lucie Mets,st-lucie-mets,Klutch,klutch,0,Klutch_STLMets
+90,Florida State,florida-state,Tampa Yankees,tampa-yankees,Blue,blue,0,Blue_TYMascot
+91,Midwest,midwest,Beloit Snappers,beloit-snappers,Snappy D. Turtle,snappy-d-turtle,0,
+92,Midwest,midwest,Bowling Green Hot Rods,bowling-green-hot-rods,Roscoe the Grease Monkey,roscoe-the-grease-monkey,0,
+93,Midwest,midwest,Burlington Bees,burlington-bees,Buzz,buzz,0,
+94,Midwest,midwest,Cedar Rapids Kernels,cedar-rapids-kernels,Mr. Shucks,mr-shucks,0,
+95,Midwest,midwest,Clinton LumberKings,clinton-lumberkings,Louie The LumberKing,louie-the-lumberking,0,
+96,Midwest,midwest,Dayton Dragons,dayton-dragons,Heater,heater,0,
+97,Midwest,midwest,Fort Wayne TinCaps,fort-wayne-tincaps,Johnny TinCap,johnny-tincap,0,
+98,Midwest,midwest,Great Lakes Loons,great-lakes-loons,Lou E. Loon,lou-e-loon,0,LouELoon
+99,Midwest,midwest,Kane County Cougars,kane-county-cougars,Ozzie T. Cougar,ozzie-t-cougar,0,
+100,Midwest,midwest,Lake County Captains,lake-county-captains,Skipper,skipper,0,
+101,Midwest,midwest,Lansing Lugnuts,lansing-lugnuts,Big Lug,big-lug,0,
+102,Midwest,midwest,Peoria Chiefs,peoria-chiefs,Homer,homer,1,HomerPeoChiefs
+103,Midwest,midwest,Quad Cities River Bandits,quad-cities-river-bandits,Rascal,rascal-2,0,
+104,Midwest,midwest,South Bend Silver Hawks,south-bend-silver-hawks,Swoop,swoop,0,SilverSwoop
+105,Midwest,midwest,West Michigan Whitecaps,west-michigan-whitecaps,Crash the River Rascal,crash-the-river-rascal,0,
+106,Midwest,midwest,Wisconsin Timber Rattlers,wisconsin-timber-rattlers,Fang T. Rattler,fang-t-rattler,0,Fang_T_Rattler
+107,South Atlantic,south-atlantic,Asheville Tourists,asheville-tourists,Mr. Moon,mr-moon,0,
+108,South Atlantic,south-atlantic,Augusta GreenJackets,augusta-greenjackets,Auggie,auggie,0,
+109,South Atlantic,south-atlantic,Charleston RiverDogs,charleston-riverdogs,Charlie T. RiverDog,charlie-t-riverdog,0,CharlieRiverDog
+110,South Atlantic,south-atlantic,Delmarva Shorebirds,delmarva-shorebirds,Sherman the Shorebird,sherman-the-shorebird,0,
+111,South Atlantic,south-atlantic,Greensboro Grasshoppers,greensboro-grasshoppers,Guilford the Grasshopper,guilford-the-grasshopper,0,
+112,South Atlantic,south-atlantic,Greenville Drive,greenville-drive,Reedy Rip'It,reedy-ripit,0,ReedyRipIt
+113,South Atlantic,south-atlantic,Hagerstown Suns,hagerstown-suns,Woolie,woolie,0,
+114,South Atlantic,south-atlantic,Hickory Crawdads,hickory-crawdads,Conrad the Crawdad,conrad-the-crawdad,0,
+115,South Atlantic,south-atlantic,Kannapolis Intimidators,kannapolis-intimidators,Tim E. Gator,tim-e-gator,0,
+116,South Atlantic,south-atlantic,Lakewood BlueClaws,lakewood-blueclaws,Buster,buster,0,BlueClawsBuster
+117,South Atlantic,south-atlantic,Lexington Legends,lexington-legends,Big L,big-l,0,
+118,South Atlantic,south-atlantic,Rome Braves,rome-braves,Romey,romey,0,
+119,South Atlantic,south-atlantic,Savannah Sand Gnats,savannah-sand-gnats,Gnate the Gnat,gnate-the-gnat,1,gnatethegnat
+120,South Atlantic,south-atlantic,West Virginia Power,west-virginia-power,Chuck,chuck,0,wv_powerCHUCK
+121,New York-Penn,new-york-penn,Aberdeen IronBirds,aberdeen-ironbirds,Ferrous,ferrous,1,
+122,New York-Penn,new-york-penn,Auburn Doubledays,auburn-doubledays,Abner,abner,0,
+123,New York-Penn,new-york-penn,Batavia Muckdogs,batavia-muckdogs,Homer,homer-2,0,
+124,New York-Penn,new-york-penn,Brooklyn Cyclones,brooklyn-cyclones,Sandy the Seagull,sandy-the-seagull,0,SandytheSeagull
+125,New York-Penn,new-york-penn,Connecticut Tigers,connecticut-tigers,C.T. the Tiger,ct-the-tiger,0,
+126,New York-Penn,new-york-penn,Hudson Valley Renegades,hudson-valley-renegades,Rascal,rascal-3,0,HVRascal
+127,New York-Penn,new-york-penn,Jamestown Jammers,jamestown-jammers,Bubba Grape,bubba-grape,0,
+128,New York-Penn,new-york-penn,Lowell Spinners,lowell-spinners,Canaligator,canaligator,0,Canaligator
+129,New York-Penn,new-york-penn,Mahoning Valley Scrappers,mahoning-valley-scrappers,Scrappy,scrappy,0,
+130,New York-Penn,new-york-penn,State College Spikes,state-college-spikes,Ike the Spike,ike-the-spike,0,
+131,New York-Penn,new-york-penn,Staten Island Yankees,staten-island-yankees,Scooter the Holy Cow,scooter-the-holy-cow,0,
+132,New York-Penn,new-york-penn,Tri-City ValleyCats,tri-city-valleycats,South Paw,south-paw,0,
+133,New York-Penn,new-york-penn,Vermont Lake Monsters,vermont-lake-monsters,Champ,champ,0,ChampVLM
+134,New York-Penn,new-york-penn,Williamsport Crosscutters,williamsport-crosscutters,Boomer,boomer-2,0,thegreatboomer
+135,Northwest,northwest,Boise Hawks,boise-hawks,Humphrey Hawk,humphrey-hawk,0,HumphreyTheHawk
+136,Northwest,northwest,Eugene Emeralds,eugene-emeralds,Sluggo,sluggo,0,SluggoEmeralds
+137,Northwest,northwest,Everett AquaSox,everett-aquasox,Webbly,webbly,0,
+138,Northwest,northwest,Hillsboro Hops,hillsboro-hops,Barley,barley,1,BarleytheHop
+139,Northwest,northwest,Salem-Keizer Volcanoes,salem-keizer-volcanoes,Crater,crater,0,
+140,Northwest,northwest,Spokane Indians,spokane-indians,Otto The Spokanasaurus,otto-the-spokanasaurus,0,
+141,Northwest,northwest,Tri-City Dust Devils,tri-city-dust-devils,Dusty,dusty,0,
+142,Northwest,northwest,Vancouver Canadians,vancouver-canadians,Bob Brown Bear,bob-brown-bear,0,bobbrownbear
+143,Appalachian,appalachian,Bluefield Blue Jays,bluefield-blue-jays,Baby Jay,baby-jay,0,
+144,Appalachian,appalachian,Bristol White Sox,bristol-white-sox,Dingbat,dingbat,0,DingbatBristol
+145,Appalachian,appalachian,Burlington Royals,burlington-royals,Bingo,bingo,0,
+146,Appalachian,appalachian,Danville Braves,danville-braves,Blooper,blooper,0,
+147,Appalachian,appalachian,Elizabethton Twins,elizabethton-twins,Rookie,rookie,0,
+148,Appalachian,appalachian,Greeneville Astros,greeneville-astros,Tennessee Tess,tennessee-tess,0,
+149,Appalachian,appalachian,Johnson City Cardinals,johnson-city-cardinals,Jay Cee,jay-cee,0,
+150,Appalachian,appalachian,Kingsport Mets,kingsport-mets,Slider,slider,0,
+151,Appalachian,appalachian,Princeton Rays,princeton-rays,Roscoe The P-Ray Rooster,roscoe-the-p-ray-rooster,1,
+152,Appalachian,appalachian,Pulaski Mariners,pulaski-mariners,Slyder,slyder,0,
+153,Pioneer,pioneer,Billings Mustangs,billings-mustangs,Homer,homer-3,0,HomerMustang
+154,Pioneer,pioneer,Grand Junction Rockies,grand-junction-rockies,Corky,corky,0,corkythecoyote
+155,Pioneer,pioneer,Great Falls Voyagers,great-falls-voyagers,Orbit,orbit-3,1,
+156,Pioneer,pioneer,Helena Brewers,helena-brewers,Clark the Cougar,clark-the-cougar,0,
+157,Pioneer,pioneer,Idaho Falls Chukars,idaho-falls-chukars,Charlie the Chukar,charlie-the-chukar,0,
+158,Pioneer,pioneer,Missoula Osprey,missoula-osprey,Ollie Osprey,ollie-osprey,0,
+159,Pioneer,pioneer,Ogden Raptors,ogden-raptors,Oggie,oggie,0,
+160,Pioneer,pioneer,Orem Owlz,orem-owlz,Hootz,hootz,0,
