@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5BE3380-DA29-48B1-8CEC-35348A23F892}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MiLB.Web</RootNamespace>
+    <AssemblyName>MiLB.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Large\abner.png" />
+    <Content Include="Content\Images\Large\ace.png" />
+    <Content Include="Content\Images\Large\archie.png" />
+    <Content Include="Content\Images\Large\auggie.png" />
+    <Content Include="Content\Images\Large\babe-ruff.png" />
+    <Content Include="Content\Images\Large\baby-jay.png" />
+    <Content Include="Content\Images\Large\ballapeno.png" />
+    <Content Include="Content\Images\Large\barley.png" />
+    <Content Include="Content\Images\Large\bernie.png" />
+    <Content Include="Content\Images\Large\big-l.png" />
+    <Content Include="Content\Images\Large\big-lug.png" />
+    <Content Include="Content\Images\Large\big-mo.png" />
+    <Content Include="Content\Images\Large\bingo.png" />
+    <Content Include="Content\Images\Large\blooper.png" />
+    <Content Include="Content\Images\Large\blue.png" />
+    <Content Include="Content\Images\Large\bob-brown-bear.png" />
+    <Content Include="Content\Images\Large\bolt.png" />
+    <Content Include="Content\Images\Large\boomer-2.png" />
+    <Content Include="Content\Images\Large\boomer.png" />
+    <Content Include="Content\Images\Large\boudreaux-d-nutria.png" />
+    <Content Include="Content\Images\Large\bubba-grape.png" />
+    <Content Include="Content\Images\Large\buddy-bat.png" />
+    <Content Include="Content\Images\Large\bumble.png" />
+    <Content Include="Content\Images\Large\buster.png" />
+    <Content Include="Content\Images\Large\buzz.png" />
+    <Content Include="Content\Images\Large\c-wolf.png" />
+    <Content Include="Content\Images\Large\canaligator.png" />
+    <Content Include="Content\Images\Large\celery.png" />
+    <Content Include="Content\Images\Large\champ.png" />
+    <Content Include="Content\Images\Large\charlie-t-riverdog.png" />
+    <Content Include="Content\Images\Large\charlie-the-chukar.png" />
+    <Content Include="Content\Images\Large\chimpy.png" />
+    <Content Include="Content\Images\Large\chopper.png" />
+    <Content Include="Content\Images\Large\chuck.png" />
+    <Content Include="Content\Images\Large\clark-the-cougar.png" />
+    <Content Include="Content\Images\Large\conrad-the-crawdad.png" />
+    <Content Include="Content\Images\Large\cooper.png" />
+    <Content Include="Content\Images\Large\corky.png" />
+    <Content Include="Content\Images\Large\cosmo.png" />
+    <Content Include="Content\Images\Large\crash-the-river-rascal.png" />
+    <Content Include="Content\Images\Large\crater.png" />
+    <Content Include="Content\Images\Large\crazy-hot-dog-vendor.png" />
+    <Content Include="Content\Images\Large\ct-the-tiger.png" />
+    <Content Include="Content\Images\Large\cubbie-bear.png" />
+    <Content Include="Content\Images\Large\cubby.png" />
+    <Content Include="Content\Images\Large\d-jay.png" />
+    <Content Include="Content\Images\Large\deuce.png" />
+    <Content Include="Content\Images\Large\dingbat.png" />
+    <Content Include="Content\Images\Large\dinger.png" />
+    <Content Include="Content\Images\Large\dusty.png" />
+    <Content Include="Content\Images\Large\fang-t-rattler.png" />
+    <Content Include="Content\Images\Large\ferrous.png" />
+    <Content Include="Content\Images\Large\fungo-the-fisher-cat.png" />
+    <Content Include="Content\Images\Large\gigante.png" />
+    <Content Include="Content\Images\Large\gnate-the-gnat.png" />
+    <Content Include="Content\Images\Large\guilford-the-grasshopper.png" />
+    <Content Include="Content\Images\Large\hambone.png" />
+    <Content Include="Content\Images\Large\hamilton-r-head.png" />
+    <Content Include="Content\Images\Large\heater.png" />
+    <Content Include="Content\Images\Large\hickory-and-the-hot-dog-horse.png" />
+    <Content Include="Content\Images\Large\homer-2.png" />
+    <Content Include="Content\Images\Large\homer-3.png" />
+    <Content Include="Content\Images\Large\homer-the-dragon.png" />
+    <Content Include="Content\Images\Large\homer-the-pole-cat.png" />
+    <Content Include="Content\Images\Large\homer.png" />
+    <Content Include="Content\Images\Large\hootz.png" />
+    <Content Include="Content\Images\Large\hornsby.png" />
+    <Content Include="Content\Images\Large\humphrey-hawk.png" />
+    <Content Include="Content\Images\Large\ike-the-spike.png" />
+    <Content Include="Content\Images\Large\jay-cee.png" />
+    <Content Include="Content\Images\Large\johnny-tincap.png" />
+    <Content Include="Content\Images\Large\kaboom.png" />
+    <Content Include="Content\Images\Large\kazoo.png" />
+    <Content Include="Content\Images\Large\keyote.png" />
+    <Content Include="Content\Images\Large\kino-bambino.png" />
+    <Content Include="Content\Images\Large\klutch.png" />
+    <Content Include="Content\Images\Large\looie-the-lookout.png" />
+    <Content Include="Content\Images\Large\lou-e-loon.png" />
+    <Content Include="Content\Images\Large\louie-2.png" />
+    <Content Include="Content\Images\Large\louie-the-lumberking.png" />
+    <Content Include="Content\Images\Large\louie.png" />
+    <Content Include="Content\Images\Large\louseal.png" />
+    <Content Include="Content\Images\Large\manny-the-manatee.png" />
+    <Content Include="Content\Images\Large\marty-the-marauder.png" />
+    <Content Include="Content\Images\Large\miss-a-miracle.png" />
+    <Content Include="Content\Images\Large\mr-moon.png" />
+    <Content Include="Content\Images\Large\mr-shucks.png" />
+    <Content Include="Content\Images\Large\muddy-the-mud-hen.png" />
+    <Content Include="Content\Images\Large\muddy-the-mudcat.png" />
+    <Content Include="Content\Images\Large\mugsy.png" />
+    <Content Include="Content\Images\Large\nutzy.png" />
+    <Content Include="Content\Images\Large\oggie.png" />
+    <Content Include="Content\Images\Large\ollie-osprey.png" />
+    <Content Include="Content\Images\Large\orbit-2.png" />
+    <Content Include="Content\Images\Large\orbit-3.png" />
+    <Content Include="Content\Images\Large\orbit.png" />
+    <Content Include="Content\Images\Large\otto-the-spokanasaurus.png" />
+    <Content Include="Content\Images\Large\ozzie-t-cougar.png" />
+    <Content Include="Content\Images\Large\ozzie.png" />
+    <Content Include="Content\Images\Large\parker.png" />
+    <Content Include="Content\Images\Large\paws.png" />
+    <Content Include="Content\Images\Large\phinley.png" />
+    <Content Include="Content\Images\Large\quills.png" />
+    <Content Include="Content\Images\Large\rascal-2.png" />
+    <Content Include="Content\Images\Large\rascal-3.png" />
+    <Content Include="Content\Images\Large\rascal.png" />
+    <Content Include="Content\Images\Large\reedy-ripit.png" />
+    <Content Include="Content\Images\Large\rhubarb-the-reindeer.png" />
+    <Content Include="Content\Images\Large\rip-tide.png" />
+    <Content Include="Content\Images\Large\robbie-the-redbird.png" />
+    <Content Include="Content\Images\Large\rockey-redbird.png" />
+    <Content Include="Content\Images\Large\rocky-bluewinkle.png" />
+    <Content Include="Content\Images\Large\rocky-rockhound.png" />
+    <Content Include="Content\Images\Large\rocky.png" />
+    <Content Include="Content\Images\Large\romey.png" />
+    <Content Include="Content\Images\Large\rookie.png" />
+    <Content Include="Content\Images\Large\roscoe-the-grease-monkey.png" />
+    <Content Include="Content\Images\Large\roscoe-the-p-ray-rooster.png" />
+    <Content Include="Content\Images\Large\rowdie.png" />
+    <Content Include="Content\Images\Large\rusty-hook.png" />
+    <Content Include="Content\Images\Large\sandy-the-seagull.png" />
+    <Content Include="Content\Images\Large\scooch.png" />
+    <Content Include="Content\Images\Large\scooter-the-holy-cow.png" />
+    <Content Include="Content\Images\Large\scrappy.png" />
+    <Content Include="Content\Images\Large\shelly-the-horse.png" />
+    <Content Include="Content\Images\Large\sherman-the-shorebird.png" />
+    <Content Include="Content\Images\Large\sinker-the-lake-creature.png" />
+    <Content Include="Content\Images\Large\skipper.png" />
+    <Content Include="Content\Images\Large\slider.png" />
+    <Content Include="Content\Images\Large\slugger-the-sea-dog.png" />
+    <Content Include="Content\Images\Large\slugger.png" />
+    <Content Include="Content\Images\Large\sluggo.png" />
+    <Content Include="Content\Images\Large\slyder.png" />
+    <Content Include="Content\Images\Large\snappy-d-turtle.png" />
+    <Content Include="Content\Images\Large\south-paw.png" />
+    <Content Include="Content\Images\Large\southpaw-2.png" />
+    <Content Include="Content\Images\Large\southpaw.png" />
+    <Content Include="Content\Images\Large\sox-the-fox.png" />
+    <Content Include="Content\Images\Large\spike.png" />
+    <Content Include="Content\Images\Large\spikes.png" />
+    <Content Include="Content\Images\Large\splash-pelican.png" />
+    <Content Include="Content\Images\Large\splash.png" />
+    <Content Include="Content\Images\Large\steamer.png" />
+    <Content Include="Content\Images\Large\stoney.png" />
+    <Content Include="Content\Images\Large\stormy.png" />
+    <Content Include="Content\Images\Large\swoop.png" />
+    <Content Include="Content\Images\Large\t102.jpg" />
+    <Content Include="Content\Images\Large\t103.jpg" />
+    <Content Include="Content\Images\Large\t104.jpg" />
+    <Content Include="Content\Images\Large\t105.jpg" />
+    <Content Include="Content\Images\Large\t106.jpg" />
+    <Content Include="Content\Images\Large\t1174.jpg" />
+    <Content Include="Content\Images\Large\t1350.jpg" />
+    <Content Include="Content\Images\Large\t1410.jpg" />
+    <Content Include="Content\Images\Large\t2310.jpg" />
+    <Content Include="Content\Images\Large\t233.jpg" />
+    <Content Include="Content\Images\Large\t234.jpg" />
+    <Content Include="Content\Images\Large\t235.jpg" />
+    <Content Include="Content\Images\Large\t237.jpg" />
+    <Content Include="Content\Images\Large\t238.jpg" />
+    <Content Include="Content\Images\Large\t247.jpg" />
+    <Content Include="Content\Images\Large\t249.jpg" />
+    <Content Include="Content\Images\Large\t2498.jpg" />
+    <Content Include="Content\Images\Large\t259.jpg" />
+    <Content Include="Content\Images\Large\t260.jpg" />
+    <Content Include="Content\Images\Large\t2730.jpg" />
+    <Content Include="Content\Images\Large\t279.jpg" />
+    <Content Include="Content\Images\Large\t3390.jpg" />
+    <Content Include="Content\Images\Large\t3410.jpg" />
+    <Content Include="Content\Images\Large\t342.jpg" />
+    <Content Include="Content\Images\Large\t400.jpg" />
+    <Content Include="Content\Images\Large\t401.jpg" />
+    <Content Include="Content\Images\Large\t402.jpg" />
+    <Content Include="Content\Images\Large\t403.jpg" />
+    <Content Include="Content\Images\Large\t4124.jpg" />
+    <Content Include="Content\Images\Large\t413.jpg" />
+    <Content Include="Content\Images\Large\t414.jpg" />
+    <Content Include="Content\Images\Large\t416.jpg" />
+    <Content Include="Content\Images\Large\t417.jpg" />
+    <Content Include="Content\Images\Large\t418.jpg" />
+    <Content Include="Content\Images\Large\t419.jpg" />
+    <Content Include="Content\Images\Large\t420.jpg" />
+    <Content Include="Content\Images\Large\t421.jpg" />
+    <Content Include="Content\Images\Large\t422.jpg" />
+    <Content Include="Content\Images\Large\t423.jpg" />
+    <Content Include="Content\Images\Large\t424.jpg" />
+    <Content Include="Content\Images\Large\t425.jpg" />
+    <Content Include="Content\Images\Large\t426.jpg" />
+    <Content Include="Content\Images\Large\t427.jpg" />
+    <Content Include="Content\Images\Large\t428.jpg" />
+    <Content Include="Content\Images\Large\t429.jpg" />
+    <Content Include="Content\Images\Large\t430.jpg" />
+    <Content Include="Content\Images\Large\t431.jpg" />
+    <Content Include="Content\Images\Large\t432.jpg" />
+    <Content Include="Content\Images\Large\t433.jpg" />
+    <Content Include="Content\Images\Large\t435.jpg" />
+    <Content Include="Content\Images\Large\t436.jpg" />
+    <Content Include="Content\Images\Large\t4364.jpg" />
+    <Content Include="Content\Images\Large\t437.jpg" />
+    <Content Include="Content\Images\Large\t438.jpg" />
+    <Content Include="Content\Images\Large\t440.jpg" />
+    <Content Include="Content\Images\Large\t443.jpg" />
+    <Content Include="Content\Images\Large\t444.jpg" />
+    <Content Include="Content\Images\Large\t445.jpg" />
+    <Content Include="Content\Images\Large\t446.jpg" />
+    <Content Include="Content\Images\Large\t448.jpg" />
+    <Content Include="Content\Images\Large\t449.jpg" />
+    <Content Include="Content\Images\Large\t450.jpg" />
+    <Content Include="Content\Images\Large\t451.jpg" />
+    <Content Include="Content\Images\Large\t452.jpg" />
+    <Content Include="Content\Images\Large\t453.jpg" />
+    <Content Include="Content\Images\Large\t455.jpg" />
+    <Content Include="Content\Images\Large\t456.jpg" />
+    <Content Include="Content\Images\Large\t458.jpg" />
+    <Content Include="Content\Images\Large\t459.jpg" />
+    <Content Include="Content\Images\Large\t460.jpg" />
+    <Content Include="Content\Images\Large\t461.jpg" />
+    <Content Include="Content\Images\Large\t462.jpg" />
+    <Content Include="Content\Images\Large\t463.jpg" />
+    <Content Include="Content\Images\Large\t476.jpg" />
+    <Content Include="Content\Images\Large\t477.jpg" />
+    <Content Include="Content\Images\Large\t478.jpg" />
+    <Content Include="Content\Images\Large\t479.jpg" />
+    <Content Include="Content\Images\Large\t480.jpg" />
+    <Content Include="Content\Images\Large\t481.jpg" />
+    <Content Include="Content\Images\Large\t482.jpg" />
+    <Content Include="Content\Images\Large\t483.jpg" />
+    <Content Include="Content\Images\Large\t484.jpg" />
+    <Content Include="Content\Images\Large\t486.jpg" />
+    <Content Include="Content\Images\Large\t487.jpg" />
+    <Content Include="Content\Images\Large\t488.jpg" />
+    <Content Include="Content\Images\Large\t489.jpg" />
+    <Content Include="Content\Images\Large\t491.jpg" />
+    <Content Include="Content\Images\Large\t492.jpg" />
+    <Content Include="Content\Images\Large\t493.jpg" />
+    <Content Include="Content\Images\Large\t494.jpg" />
+    <Content Include="Content\Images\Large\t495.jpg" />
+    <Content Include="Content\Images\Large\t498.jpg" />
+    <Content Include="Content\Images\Large\t499.jpg" />
+    <Content Include="Content\Images\Large\t500.jpg" />
+    <Content Include="Content\Images\Large\t503.jpg" />
+    <Content Include="Content\Images\Large\t504.jpg" />
+    <Content Include="Content\Images\Large\t505.jpg" />
+    <Content Include="Content\Images\Large\t506.jpg" />
+    <Content Include="Content\Images\Large\t507.jpg" />
+    <Content Include="Content\Images\Large\t509.jpg" />
+    <Content Include="Content\Images\Large\t510.jpg" />
+    <Content Include="Content\Images\Large\t511.jpg" />
+    <Content Include="Content\Images\Large\t512.jpg" />
+    <Content Include="Content\Images\Large\t513.jpg" />
+    <Content Include="Content\Images\Large\t515.jpg" />
+    <Content Include="Content\Images\Large\t516.jpg" />
+    <Content Include="Content\Images\Large\t517.jpg" />
+    <Content Include="Content\Images\Large\t518.jpg" />
+    <Content Include="Content\Images\Large\t519.jpg" />
+    <Content Include="Content\Images\Large\t521.jpg" />
+    <Content Include="Content\Images\Large\t522.jpg" />
+    <Content Include="Content\Images\Large\t524.jpg" />
+    <Content Include="Content\Images\Large\t525.jpg" />
+    <Content Include="Content\Images\Large\t526.jpg" />
+    <Content Include="Content\Images\Large\t529.jpg" />
+    <Content Include="Content\Images\Large\t530.jpg" />
+    <Content Include="Content\Images\Large\t531.jpg" />
+    <Content Include="Content\Images\Large\t533.jpg" />
+    <Content Include="Content\Images\Large\t534.jpg" />
+    <Content Include="Content\Images\Large\t537.jpg" />
+    <Content Include="Content\Images\Large\t538.jpg" />
+    <Content Include="Content\Images\Large\t540.jpg" />
+    <Content Include="Content\Images\Large\t541.jpg" />
+    <Content Include="Content\Images\Large\t543.jpg" />
+    <Content Include="Content\Images\Large\t545.jpg" />
+    <Content Include="Content\Images\Large\t546.jpg" />
+    <Content Include="Content\Images\Large\t547.jpg" />
+    <Content Include="Content\Images\Large\t548.jpg" />
+    <Content Include="Content\Images\Large\t549.jpg" />
+    <Content Include="Content\Images\Large\t550.jpg" />
+    <Content Include="Content\Images\Large\t551.jpg" />
+    <Content Include="Content\Images\Large\t552.jpg" />
+    <Content Include="Content\Images\Large\t553.jpg" />
+    <Content Include="Content\Images\Large\t554.jpg" />
+    <Content Include="Content\Images\Large\t556.jpg" />
+    <Content Include="Content\Images\Large\t557.jpg" />
+    <Content Include="Content\Images\Large\t558.jpg" />
+    <Content Include="Content\Images\Large\t559.jpg" />
+    <Content Include="Content\Images\Large\t561.jpg" />
+    <Content Include="Content\Images\Large\t563.jpg" />
+    <Content Include="Content\Images\Large\t564.jpg" />
+    <Content Include="Content\Images\Large\t565.jpg" />
+    <Content Include="Content\Images\Large\t566.jpg" />
+    <Content Include="Content\Images\Large\t567.jpg" />
+    <Content Include="Content\Images\Large\t568.jpg" />
+    <Content Include="Content\Images\Large\t570.jpg" />
+    <Content Include="Content\Images\Large\t571.jpg" />
+    <Content Include="Content\Images\Large\t572.jpg" />
+    <Content Include="Content\Images\Large\t573.jpg" />
+    <Content Include="Content\Images\Large\t574.jpg" />
+    <Content Include="Content\Images\Large\t576.jpg" />
+    <Content Include="Content\Images\Large\t577.jpg" />
+    <Content Include="Content\Images\Large\t578.jpg" />
+    <Content Include="Content\Images\Large\t580.jpg" />
+    <Content Include="Content\Images\Large\t581.jpg" />
+    <Content Include="Content\Images\Large\t582.jpg" />
+    <Content Include="Content\Images\Large\t584.jpg" />
+    <Content Include="Content\Images\Large\t586.jpg" />
+    <Content Include="Content\Images\Large\t587.jpg" />
+    <Content Include="Content\Images\Large\t588.jpg" />
+    <Content Include="Content\Images\Large\teddy.png" />
+    <Content Include="Content\Images\Large\tennessee-tess.png" />
+    <Content Include="Content\Images\Large\thunder.png" />
+    <Content Include="Content\Images\Large\tim-e-gator.png" />
+    <Content Include="Content\Images\Large\tipper-t-bull.png" />
+    <Content Include="Content\Images\Large\torch.png" />
+    <Content Include="Content\Images\Large\tremor.png" />
+    <Content Include="Content\Images\Large\trusty.png" />
+    <Content Include="Content\Images\Large\uncle-slam.png" />
+    <Content Include="Content\Images\Large\wally-the-walnut.png" />
+    <Content Include="Content\Images\Large\webbly.png" />
+    <Content Include="Content\Images\Large\wool-e-bull.png" />
+    <Content Include="Content\Images\Large\woolie.png" />
+    <Content Include="Content\Images\Large\wooly-bully.png" />
+    <Content Include="Content\Images\Logo\aberdeen-ironbirds.png" />
+    <Content Include="Content\Images\Logo\akron-aeros.png" />
+    <Content Include="Content\Images\Logo\albuquerque-isotopes.png" />
+    <Content Include="Content\Images\Logo\altoona-curve.png" />
+    <Content Include="Content\Images\Logo\arkansas-travelers.png" />
+    <Content Include="Content\Images\Logo\asheville-tourists.png" />
+    <Content Include="Content\Images\Logo\auburn-doubledays.png" />
+    <Content Include="Content\Images\Logo\augusta-greenjackets.png" />
+    <Content Include="Content\Images\Logo\bakersfield-blaze.png" />
+    <Content Include="Content\Images\Logo\batavia-muckdogs.png" />
+    <Content Include="Content\Images\Logo\beloit-snappers.png" />
+    <Content Include="Content\Images\Logo\billings-mustangs.png" />
+    <Content Include="Content\Images\Logo\binghamton-mets.png" />
+    <Content Include="Content\Images\Logo\birmingham-barons.png" />
+    <Content Include="Content\Images\Logo\bluefield-blue-jays.png" />
+    <Content Include="Content\Images\Logo\boise-hawks.png" />
+    <Content Include="Content\Images\Logo\bowie-baysox.png" />
+    <Content Include="Content\Images\Logo\bowling-green-hot-rods.png" />
+    <Content Include="Content\Images\Logo\bradenton-marauders.png" />
+    <Content Include="Content\Images\Logo\brevard-county-manatees.png" />
+    <Content Include="Content\Images\Logo\bristol-white-sox.png" />
+    <Content Include="Content\Images\Logo\brooklyn-cyclones.png" />
+    <Content Include="Content\Images\Logo\buffalo-bisons.png" />
+    <Content Include="Content\Images\Logo\burlington-bees.png" />
+    <Content Include="Content\Images\Logo\burlington-royals.png" />
+    <Content Include="Content\Images\Logo\carolina-mudcats.png" />
+    <Content Include="Content\Images\Logo\cedar-rapids-kernels.png" />
+    <Content Include="Content\Images\Logo\charleston-riverdogs.png" />
+    <Content Include="Content\Images\Logo\charlotte-knights.png" />
+    <Content Include="Content\Images\Logo\charlotte-stone-crabs.png" />
+    <Content Include="Content\Images\Logo\chattanooga-lookouts.png" />
+    <Content Include="Content\Images\Logo\clearwater-threshers.png" />
+    <Content Include="Content\Images\Logo\clinton-lumberkings.png" />
+    <Content Include="Content\Images\Logo\colorado-springs-sky-sox.png" />
+    <Content Include="Content\Images\Logo\columbus-clippers.png" />
+    <Content Include="Content\Images\Logo\connecticut-tigers.png" />
+    <Content Include="Content\Images\Logo\corpus-christi-hooks.png" />
+    <Content Include="Content\Images\Logo\danville-braves.png" />
+    <Content Include="Content\Images\Logo\dayton-dragons.png" />
+    <Content Include="Content\Images\Logo\daytona-cubs.png" />
+    <Content Include="Content\Images\Logo\delmarva-shorebirds.png" />
+    <Content Include="Content\Images\Logo\dunedin-blue-jays.png" />
+    <Content Include="Content\Images\Logo\durham-bulls.png" />
+    <Content Include="Content\Images\Logo\elizabethton-twins.png" />
+    <Content Include="Content\Images\Logo\erie-seawolves.png" />
+    <Content Include="Content\Images\Logo\eugene-emeralds.png" />
+    <Content Include="Content\Images\Logo\everett-aquasox.png" />
+    <Content Include="Content\Images\Logo\fort-myers-miracle.png" />
+    <Content Include="Content\Images\Logo\fort-wayne-tincaps.png" />
+    <Content Include="Content\Images\Logo\frederick-keys.png" />
+    <Content Include="Content\Images\Logo\fresno-grizzlies.png" />
+    <Content Include="Content\Images\Logo\frisco-roughriders.png" />
+    <Content Include="Content\Images\Logo\grand-junction-rockies.png" />
+    <Content Include="Content\Images\Logo\great-falls-voyagers.png" />
+    <Content Include="Content\Images\Logo\great-lakes-loons.png" />
+    <Content Include="Content\Images\Logo\greeneville-astros.png" />
+    <Content Include="Content\Images\Logo\greensboro-grasshoppers.png" />
+    <Content Include="Content\Images\Logo\greenville-drive.png" />
+    <Content Include="Content\Images\Logo\gwinnett-braves.png" />
+    <Content Include="Content\Images\Logo\hagerstown-suns.png" />
+    <Content Include="Content\Images\Logo\harrisburg-senators.png" />
+    <Content Include="Content\Images\Logo\helena-brewers.png" />
+    <Content Include="Content\Images\Logo\hickory-crawdads.png" />
+    <Content Include="Content\Images\Logo\high-desert-mavericks.png" />
+    <Content Include="Content\Images\Logo\hillsboro-hops.png" />
+    <Content Include="Content\Images\Logo\hudson-valley-renegades.png" />
+    <Content Include="Content\Images\Logo\huntsville-stars.png" />
+    <Content Include="Content\Images\Logo\idaho-falls-chukars.png" />
+    <Content Include="Content\Images\Logo\indianapolis-indians.png" />
+    <Content Include="Content\Images\Logo\inland-empire-66ers.png" />
+    <Content Include="Content\Images\Logo\iowa-cubs.png" />
+    <Content Include="Content\Images\Logo\jackson-generals.png" />
+    <Content Include="Content\Images\Logo\jacksonville-suns.png" />
+    <Content Include="Content\Images\Logo\jamestown-jammers.png" />
+    <Content Include="Content\Images\Logo\johnson-city-cardinals.png" />
+    <Content Include="Content\Images\Logo\jupiter-hammerheads.png" />
+    <Content Include="Content\Images\Logo\kane-county-cougars.png" />
+    <Content Include="Content\Images\Logo\kannapolis-intimidators.png" />
+    <Content Include="Content\Images\Logo\kingsport-mets.png" />
+    <Content Include="Content\Images\Logo\lake-county-captains.png" />
+    <Content Include="Content\Images\Logo\lake-elsinore-storm.png" />
+    <Content Include="Content\Images\Logo\lakeland-flying-tigers.png" />
+    <Content Include="Content\Images\Logo\lakewood-blueclaws.png" />
+    <Content Include="Content\Images\Logo\lancaster-jethawks.png" />
+    <Content Include="Content\Images\Logo\lansing-lugnuts.png" />
+    <Content Include="Content\Images\Logo\las-vegas-51s.png" />
+    <Content Include="Content\Images\Logo\lehigh-valley-ironpigs.png" />
+    <Content Include="Content\Images\Logo\lexington-legends.png" />
+    <Content Include="Content\Images\Logo\louisville-bats.png" />
+    <Content Include="Content\Images\Logo\lowell-spinners.png" />
+    <Content Include="Content\Images\Logo\lynchburg-hillcats.png" />
+    <Content Include="Content\Images\Logo\mahoning-valley-scrappers.png" />
+    <Content Include="Content\Images\Logo\memphis-redbirds.png" />
+    <Content Include="Content\Images\Logo\midland-rockhounds.png" />
+    <Content Include="Content\Images\Logo\mississippi-braves.png" />
+    <Content Include="Content\Images\Logo\missoula-osprey.png" />
+    <Content Include="Content\Images\Logo\mobile-baybears.png" />
+    <Content Include="Content\Images\Logo\modesto-nuts.png" />
+    <Content Include="Content\Images\Logo\montgomery-biscuits.png" />
+    <Content Include="Content\Images\Logo\myrtle-beach-pelicans.png" />
+    <Content Include="Content\Images\Logo\nashville-sounds.png" />
+    <Content Include="Content\Images\Logo\new-britain-rock-cats.png" />
+    <Content Include="Content\Images\Logo\new-hampshire-fisher-cats.png" />
+    <Content Include="Content\Images\Logo\new-orleans-zephyrs.png" />
+    <Content Include="Content\Images\Logo\norfolk-tides.png" />
+    <Content Include="Content\Images\Logo\nw-arkansas-naturals.png" />
+    <Content Include="Content\Images\Logo\ogden-raptors.png" />
+    <Content Include="Content\Images\Logo\oklahoma-city-redhawks.png" />
+    <Content Include="Content\Images\Logo\omaha-storm-chasers.png" />
+    <Content Include="Content\Images\Logo\orem-owlz.png" />
+    <Content Include="Content\Images\Logo\palm-beach-cardinals.png" />
+    <Content Include="Content\Images\Logo\pawtucket-red-sox.png" />
+    <Content Include="Content\Images\Logo\pensacola-blue-wahoos.png" />
+    <Content Include="Content\Images\Logo\peoria-chiefs.png" />
+    <Content Include="Content\Images\Logo\portland-sea-dogs.png" />
+    <Content Include="Content\Images\Logo\potomac-nationals.png" />
+    <Content Include="Content\Images\Logo\princeton-rays.png" />
+    <Content Include="Content\Images\Logo\pulaski-mariners.png" />
+    <Content Include="Content\Images\Logo\quad-cities-river-bandits.png" />
+    <Content Include="Content\Images\Logo\rancho-cuca-quakes.png" />
+    <Content Include="Content\Images\Logo\reading-fightin-phils.png" />
+    <Content Include="Content\Images\Logo\reno-aces.png" />
+    <Content Include="Content\Images\Logo\richmond-flying-squirrels.png" />
+    <Content Include="Content\Images\Logo\rochester-red-wings.png" />
+    <Content Include="Content\Images\Logo\rome-braves.png" />
+    <Content Include="Content\Images\Logo\round-rock-express.png" />
+    <Content Include="Content\Images\Logo\sacramento-river-cats.png" />
+    <Content Include="Content\Images\Logo\salem-keizer-volcanoes.png" />
+    <Content Include="Content\Images\Logo\salem-red-sox.png" />
+    <Content Include="Content\Images\Logo\salt-lake-bees.png" />
+    <Content Include="Content\Images\Logo\san-antonio-missions.png" />
+    <Content Include="Content\Images\Logo\san-jose-giants.png" />
+    <Content Include="Content\Images\Logo\savannah-sand-gnats.png" />
+    <Content Include="Content\Images\Logo\scrantonwb-railriders.png" />
+    <Content Include="Content\Images\Logo\south-bend-silver-hawks.png" />
+    <Content Include="Content\Images\Logo\spokane-indians.png" />
+    <Content Include="Content\Images\Logo\springfield-cardinals.png" />
+    <Content Include="Content\Images\Logo\st-lucie-mets.png" />
+    <Content Include="Content\Images\Logo\state-college-spikes.png" />
+    <Content Include="Content\Images\Logo\staten-island-yankees.png" />
+    <Content Include="Content\Images\Logo\stockton-ports.png" />
+    <Content Include="Content\Images\Logo\syracuse-chiefs.png" />
+    <Content Include="Content\Images\Logo\t102.png" />
+    <Content Include="Content\Images\Logo\t103.png" />
+    <Content Include="Content\Images\Logo\t104.png" />
+    <Content Include="Content\Images\Logo\t105.png" />
+    <Content Include="Content\Images\Logo\t106.png" />
+    <Content Include="Content\Images\Logo\t1174.png" />
+    <Content Include="Content\Images\Logo\t1350.png" />
+    <Content Include="Content\Images\Logo\t1410.png" />
+    <Content Include="Content\Images\Logo\t2310.png" />
+    <Content Include="Content\Images\Logo\t233.png" />
+    <Content Include="Content\Images\Logo\t234.png" />
+    <Content Include="Content\Images\Logo\t235.png" />
+    <Content Include="Content\Images\Logo\t237.png" />
+    <Content Include="Content\Images\Logo\t238.png" />
+    <Content Include="Content\Images\Logo\t247.png" />
+    <Content Include="Content\Images\Logo\t249.png" />
+    <Content Include="Content\Images\Logo\t2498.png" />
+    <Content Include="Content\Images\Logo\t259.png" />
+    <Content Include="Content\Images\Logo\t260.png" />
+    <Content Include="Content\Images\Logo\t2730.png" />
+    <Content Include="Content\Images\Logo\t279.png" />
+    <Content Include="Content\Images\Logo\t3390.png" />
+    <Content Include="Content\Images\Logo\t3410.png" />
+    <Content Include="Content\Images\Logo\t342.png" />
+    <Content Include="Content\Images\Logo\t400.png" />
+    <Content Include="Content\Images\Logo\t401.png" />
+    <Content Include="Content\Images\Logo\t402.png" />
+    <Content Include="Content\Images\Logo\t403.png" />
+    <Content Include="Content\Images\Logo\t4124.png" />
+    <Content Include="Content\Images\Logo\t413.png" />
+    <Content Include="Content\Images\Logo\t414.png" />
+    <Content Include="Content\Images\Logo\t416.png" />
+    <Content Include="Content\Images\Logo\t417.png" />
+    <Content Include="Content\Images\Logo\t418.png" />
+    <Content Include="Content\Images\Logo\t419.png" />
+    <Content Include="Content\Images\Logo\t420.png" />
+    <Content Include="Content\Images\Logo\t421.png" />
+    <Content Include="Content\Images\Logo\t422.png" />
+    <Content Include="Content\Images\Logo\t423.png" />
+    <Content Include="Content\Images\Logo\t424.png" />
+    <Content Include="Content\Images\Logo\t425.png" />
+    <Content Include="Content\Images\Logo\t426.png" />
+    <Content Include="Content\Images\Logo\t427.png" />
+    <Content Include="Content\Images\Logo\t428.png" />
+    <Content Include="Content\Images\Logo\t429.png" />
+    <Content Include="Content\Images\Logo\t430.png" />
+    <Content Include="Content\Images\Logo\t431.png" />
+    <Content Include="Content\Images\Logo\t432.png" />
+    <Content Include="Content\Images\Logo\t433.png" />
+    <Content Include="Content\Images\Logo\t435.png" />
+    <Content Include="Content\Images\Logo\t436.png" />
+    <Content Include="Content\Images\Logo\t4364.png" />
+    <Content Include="Content\Images\Logo\t437.png" />
+    <Content Include="Content\Images\Logo\t438.png" />
+    <Content Include="Content\Images\Logo\t440.png" />
+    <Content Include="Content\Images\Logo\t443.png" />
+    <Content Include="Content\Images\Logo\t444.png" />
+    <Content Include="Content\Images\Logo\t445.png" />
+    <Content Include="Content\Images\Logo\t446.png" />
+    <Content Include="Content\Images\Logo\t448.png" />
+    <Content Include="Content\Images\Logo\t449.png" />
+    <Content Include="Content\Images\Logo\t450.png" />
+    <Content Include="Content\Images\Logo\t451.png" />
+    <Content Include="Content\Images\Logo\t452.png" />
+    <Content Include="Content\Images\Logo\t453.png" />
+    <Content Include="Content\Images\Logo\t455.png" />
+    <Content Include="Content\Images\Logo\t456.png" />
+    <Content Include="Content\Images\Logo\t458.png" />
+    <Content Include="Content\Images\Logo\t459.png" />
+    <Content Include="Content\Images\Logo\t460.png" />
+    <Content Include="Content\Images\Logo\t461.png" />
+    <Content Include="Content\Images\Logo\t462.png" />
+    <Content Include="Content\Images\Logo\t463.png" />
+    <Content Include="Content\Images\Logo\t476.png" />
+    <Content Include="Content\Images\Logo\t477.png" />
+    <Content Include="Content\Images\Logo\t478.png" />
+    <Content Include="Content\Images\Logo\t479.png" />
+    <Content Include="Content\Images\Logo\t480.png" />
+    <Content Include="Content\Images\Logo\t481.png" />
+    <Content Include="Content\Images\Logo\t482.png" />
+    <Content Include="Content\Images\Logo\t483.png" />
+    <Content Include="Content\Images\Logo\t484.png" />
+    <Content Include="Content\Images\Logo\t486.png" />
+    <Content Include="Content\Images\Logo\t487.png" />
+    <Content Include="Content\Images\Logo\t488.png" />
+    <Content Include="Content\Images\Logo\t489.png" />
+    <Content Include="Content\Images\Logo\t491.png" />
+    <Content Include="Content\Images\Logo\t492.png" />
+    <Content Include="Content\Images\Logo\t493.png" />
+    <Content Include="Content\Images\Logo\t494.png" />
+    <Content Include="Content\Images\Logo\t495.png" />
+    <Content Include="Content\Images\Logo\t498.png" />
+    <Content Include="Content\Images\Logo\t499.png" />
+    <Content Include="Content\Images\Logo\t500.png" />
+    <Content Include="Content\Images\Logo\t503.png" />
+    <Content Include="Content\Images\Logo\t504.png" />
+    <Content Include="Content\Images\Logo\t505.png" />
+    <Content Include="Content\Images\Logo\t506.png" />
+    <Content Include="Content\Images\Logo\t507.png" />
+    <Content Include="Content\Images\Logo\t509.png" />
+    <Content Include="Content\Images\Logo\t510.png" />
+    <Content Include="Content\Images\Logo\t511.png" />
+    <Content Include="Content\Images\Logo\t512.png" />
+    <Content Include="Content\Images\Logo\t513.png" />
+    <Content Include="Content\Images\Logo\t515.png" />
+    <Content Include="Content\Images\Logo\t516.png" />
+    <Content Include="Content\Images\Logo\t517.png" />
+    <Content Include="Content\Images\Logo\t518.png" />
+    <Content Include="Content\Images\Logo\t519.png" />
+    <Content Include="Content\Images\Logo\t521.png" />
+    <Content Include="Content\Images\Logo\t522.png" />
+    <Content Include="Content\Images\Logo\t524.png" />
+    <Content Include="Content\Images\Logo\t525.png" />
+    <Content Include="Content\Images\Logo\t526.png" />
+    <Content Include="Content\Images\Logo\t529.png" />
+    <Content Include="Content\Images\Logo\t530.png" />
+    <Content Include="Content\Images\Logo\t531.png" />
+    <Content Include="Content\Images\Logo\t533.png" />
+    <Content Include="Content\Images\Logo\t534.png" />
+    <Content Include="Content\Images\Logo\t537.png" />
+    <Content Include="Content\Images\Logo\t538.png" />
+    <Content Include="Content\Images\Logo\t540.png" />
+    <Content Include="Content\Images\Logo\t541.png" />
+    <Content Include="Content\Images\Logo\t543.png" />
+    <Content Include="Content\Images\Logo\t545.png" />
+    <Content Include="Content\Images\Logo\t546.png" />
+    <Content Include="Content\Images\Logo\t547.png" />
+    <Content Include="Content\Images\Logo\t548.png" />
+    <Content Include="Content\Images\Logo\t549.png" />
+    <Content Include="Content\Images\Logo\t550.png" />
+    <Content Include="Content\Images\Logo\t551.png" />
+    <Content Include="Content\Images\Logo\t552.png" />
+    <Content Include="Content\Images\Logo\t553.png" />
+    <Content Include="Content\Images\Logo\t554.png" />
+    <Content Include="Content\Images\Logo\t556.png" />
+    <Content Include="Content\Images\Logo\t557.png" />
+    <Content Include="Content\Images\Logo\t558.png" />
+    <Content Include="Content\Images\Logo\t559.png" />
+    <Content Include="Content\Images\Logo\t561.png" />
+    <Content Include="Content\Images\Logo\t563.png" />
+    <Content Include="Content\Images\Logo\t564.png" />
+    <Content Include="Content\Images\Logo\t565.png" />
+    <Content Include="Content\Images\Logo\t566.png" />
+    <Content Include="Content\Images\Logo\t567.png" />
+    <Content Include="Content\Images\Logo\t568.png" />
+    <Content Include="Content\Images\Logo\t570.png" />
+    <Content Include="Content\Images\Logo\t571.png" />
+    <Content Include="Content\Images\Logo\t572.png" />
+    <Content Include="Content\Images\Logo\t573.png" />
+    <Content Include="Content\Images\Logo\t574.png" />
+    <Content Include="Content\Images\Logo\t576.png" />
+    <Content Include="Content\Images\Logo\t577.png" />
+    <Content Include="Content\Images\Logo\t578.png" />
+    <Content Include="Content\Images\Logo\t580.png" />
+    <Content Include="Content\Images\Logo\t581.png" />
+    <Content Include="Content\Images\Logo\t582.png" />
+    <Content Include="Content\Images\Logo\t584.png" />
+    <Content Include="Content\Images\Logo\t586.png" />
+    <Content Include="Content\Images\Logo\t587.png" />
+    <Content Include="Content\Images\Logo\t588.png" />
+    <Content Include="Content\Images\Logo\tacoma-rainiers.png" />
+    <Content Include="Content\Images\Logo\tampa-yankees.png" />
+    <Content Include="Content\Images\Logo\tennessee-smokies.png" />
+    <Content Include="Content\Images\Logo\toledo-mud-hens.png" />
+    <Content Include="Content\Images\Logo\trenton-thunder.png" />
+    <Content Include="Content\Images\Logo\tri-city-dust-devils.png" />
+    <Content Include="Content\Images\Logo\tri-city-valleycats.png" />
+    <Content Include="Content\Images\Logo\tucson-padres.png" />
+    <Content Include="Content\Images\Logo\tulsa-drillers.png" />
+    <Content Include="Content\Images\Logo\vancouver-canadians.png" />
+    <Content Include="Content\Images\Logo\vermont-lake-monsters.png" />
+    <Content Include="Content\Images\Logo\visalia-rawhide.png" />
+    <Content Include="Content\Images\Logo\west-michigan-whitecaps.png" />
+    <Content Include="Content\Images\Logo\west-virginia-power.png" />
+    <Content Include="Content\Images\Logo\williamsport-crosscutters.png" />
+    <Content Include="Content\Images\Logo\wilmington-blue-rocks.png" />
+    <Content Include="Content\Images\Logo\winston-salem-dash.png" />
+    <Content Include="Content\Images\Logo\wisconsin-timber-rattlers.png" />
+    <Content Include="Content\Images\Small\abner.png" />
+    <Content Include="Content\Images\Small\ace.png" />
+    <Content Include="Content\Images\Small\archie.png" />
+    <Content Include="Content\Images\Small\auggie.png" />
+    <Content Include="Content\Images\Small\babe-ruff.png" />
+    <Content Include="Content\Images\Small\baby-jay.png" />
+    <Content Include="Content\Images\Small\ballapeno.png" />
+    <Content Include="Content\Images\Small\barley.png" />
+    <Content Include="Content\Images\Small\bernie.png" />
+    <Content Include="Content\Images\Small\big-l.png" />
+    <Content Include="Content\Images\Small\big-lug.png" />
+    <Content Include="Content\Images\Small\big-mo.png" />
+    <Content Include="Content\Images\Small\bingo.png" />
+    <Content Include="Content\Images\Small\blooper.png" />
+    <Content Include="Content\Images\Small\blue.png" />
+    <Content Include="Content\Images\Small\bob-brown-bear.png" />
+    <Content Include="Content\Images\Small\bolt.png" />
+    <Content Include="Content\Images\Small\boomer-2.png" />
+    <Content Include="Content\Images\Small\boomer.png" />
+    <Content Include="Content\Images\Small\boudreaux-d-nutria.png" />
+    <Content Include="Content\Images\Small\bubba-grape.png" />
+    <Content Include="Content\Images\Small\buddy-bat.png" />
+    <Content Include="Content\Images\Small\bumble.png" />
+    <Content Include="Content\Images\Small\buster.png" />
+    <Content Include="Content\Images\Small\buzz.png" />
+    <Content Include="Content\Images\Small\c-wolf.png" />
+    <Content Include="Content\Images\Small\canaligator.png" />
+    <Content Include="Content\Images\Small\celery.png" />
+    <Content Include="Content\Images\Small\champ.png" />
+    <Content Include="Content\Images\Small\charlie-t-riverdog.png" />
+    <Content Include="Content\Images\Small\charlie-the-chukar.png" />
+    <Content Include="Content\Images\Small\chimpy.png" />
+    <Content Include="Content\Images\Small\chopper.png" />
+    <Content Include="Content\Images\Small\chuck.png" />
+    <Content Include="Content\Images\Small\clark-the-cougar.png" />
+    <Content Include="Content\Images\Small\conrad-the-crawdad.png" />
+    <Content Include="Content\Images\Small\cooper.png" />
+    <Content Include="Content\Images\Small\corky.png" />
+    <Content Include="Content\Images\Small\cosmo.png" />
+    <Content Include="Content\Images\Small\crash-the-river-rascal.png" />
+    <Content Include="Content\Images\Small\crater.png" />
+    <Content Include="Content\Images\Small\crazy-hot-dog-vendor.png" />
+    <Content Include="Content\Images\Small\ct-the-tiger.png" />
+    <Content Include="Content\Images\Small\cubbie-bear.png" />
+    <Content Include="Content\Images\Small\cubby.png" />
+    <Content Include="Content\Images\Small\d-jay.png" />
+    <Content Include="Content\Images\Small\deuce.png" />
+    <Content Include="Content\Images\Small\dingbat.png" />
+    <Content Include="Content\Images\Small\dinger.png" />
+    <Content Include="Content\Images\Small\dusty.png" />
+    <Content Include="Content\Images\Small\fang-t-rattler.png" />
+    <Content Include="Content\Images\Small\ferrous.png" />
+    <Content Include="Content\Images\Small\fungo-the-fisher-cat.png" />
+    <Content Include="Content\Images\Small\gigante.png" />
+    <Content Include="Content\Images\Small\gnate-the-gnat.png" />
+    <Content Include="Content\Images\Small\guilford-the-grasshopper.png" />
+    <Content Include="Content\Images\Small\hambone.png" />
+    <Content Include="Content\Images\Small\hamilton-r-head.png" />
+    <Content Include="Content\Images\Small\heater.png" />
+    <Content Include="Content\Images\Small\hickory-and-the-hot-dog-horse.png" />
+    <Content Include="Content\Images\Small\homer-2.png" />
+    <Content Include="Content\Images\Small\homer-3.png" />
+    <Content Include="Content\Images\Small\homer-the-dragon.png" />
+    <Content Include="Content\Images\Small\homer-the-pole-cat.png" />
+    <Content Include="Content\Images\Small\homer.png" />
+    <Content Include="Content\Images\Small\hootz.png" />
+    <Content Include="Content\Images\Small\hornsby.png" />
+    <Content Include="Content\Images\Small\humphrey-hawk.png" />
+    <Content Include="Content\Images\Small\ike-the-spike.png" />
+    <Content Include="Content\Images\Small\jay-cee.png" />
+    <Content Include="Content\Images\Small\johnny-tincap.png" />
+    <Content Include="Content\Images\Small\kaboom.png" />
+    <Content Include="Content\Images\Small\kazoo.png" />
+    <Content Include="Content\Images\Small\keyote.png" />
+    <Content Include="Content\Images\Small\kino-bambino.png" />
+    <Content Include="Content\Images\Small\klutch.png" />
+    <Content Include="Content\Images\Small\looie-the-lookout.png" />
+    <Content Include="Content\Images\Small\lou-e-loon.png" />
+    <Content Include="Content\Images\Small\louie-2.png" />
+    <Content Include="Content\Images\Small\louie-the-lumberking.png" />
+    <Content Include="Content\Images\Small\louie.png" />
+    <Content Include="Content\Images\Small\louseal.png" />
+    <Content Include="Content\Images\Small\manny-the-manatee.png" />
+    <Content Include="Content\Images\Small\marty-the-marauder.png" />
+    <Content Include="Content\Images\Small\miss-a-miracle.png" />
+    <Content Include="Content\Images\Small\mr-moon.png" />
+    <Content Include="Content\Images\Small\mr-shucks.png" />
+    <Content Include="Content\Images\Small\muddy-the-mud-hen.png" />
+    <Content Include="Content\Images\Small\muddy-the-mudcat.png" />
+    <Content Include="Content\Images\Small\mugsy.png" />
+    <Content Include="Content\Images\Small\nutzy.png" />
+    <Content Include="Content\Images\Small\oggie.png" />
+    <Content Include="Content\Images\Small\ollie-osprey.png" />
+    <Content Include="Content\Images\Small\orbit-2.png" />
+    <Content Include="Content\Images\Small\orbit-3.png" />
+    <Content Include="Content\Images\Small\orbit.png" />
+    <Content Include="Content\Images\Small\otto-the-spokanasaurus.png" />
+    <Content Include="Content\Images\Small\ozzie-t-cougar.png" />
+    <Content Include="Content\Images\Small\ozzie.png" />
+    <Content Include="Content\Images\Small\parker.png" />
+    <Content Include="Content\Images\Small\paws.png" />
+    <Content Include="Content\Images\Small\phinley.png" />
+    <Content Include="Content\Images\Small\quills.png" />
+    <Content Include="Content\Images\Small\rascal-2.png" />
+    <Content Include="Content\Images\Small\rascal-3.png" />
+    <Content Include="Content\Images\Small\rascal.png" />
+    <Content Include="Content\Images\Small\reedy-ripit.png" />
+    <Content Include="Content\Images\Small\rhubarb-the-reindeer.png" />
+    <Content Include="Content\Images\Small\rip-tide.png" />
+    <Content Include="Content\Images\Small\robbie-the-redbird.png" />
+    <Content Include="Content\Images\Small\rockey-redbird.png" />
+    <Content Include="Content\Images\Small\rocky-bluewinkle.png" />
+    <Content Include="Content\Images\Small\rocky-rockhound.png" />
+    <Content Include="Content\Images\Small\rocky.png" />
+    <Content Include="Content\Images\Small\romey.png" />
+    <Content Include="Content\Images\Small\rookie.png" />
+    <Content Include="Content\Images\Small\roscoe-the-grease-monkey.png" />
+    <Content Include="Content\Images\Small\roscoe-the-p-ray-rooster.png" />
+    <Content Include="Content\Images\Small\rowdie.png" />
+    <Content Include="Content\Images\Small\rusty-hook.png" />
+    <Content Include="Content\Images\Small\sandy-the-seagull.png" />
+    <Content Include="Content\Images\Small\scooch.png" />
+    <Content Include="Content\Images\Small\scooter-the-holy-cow.png" />
+    <Content Include="Content\Images\Small\scrappy.png" />
+    <Content Include="Content\Images\Small\shelly-the-horse.png" />
+    <Content Include="Content\Images\Small\sherman-the-shorebird.png" />
+    <Content Include="Content\Images\Small\sinker-the-lake-creature.png" />
+    <Content Include="Content\Images\Small\skipper.png" />
+    <Content Include="Content\Images\Small\slider.png" />
+    <Content Include="Content\Images\Small\slugger-the-sea-dog.png" />
+    <Content Include="Content\Images\Small\slugger.png" />
+    <Content Include="Content\Images\Small\sluggo.png" />
+    <Content Include="Content\Images\Small\slyder.png" />
+    <Content Include="Content\Images\Small\snappy-d-turtle.png" />
+    <Content Include="Content\Images\Small\south-paw.png" />
+    <Content Include="Content\Images\Small\southpaw-2.png" />
+    <Content Include="Content\Images\Small\southpaw.png" />
+    <Content Include="Content\Images\Small\sox-the-fox.png" />
+    <Content Include="Content\Images\Small\spike.png" />
+    <Content Include="Content\Images\Small\spikes.png" />
+    <Content Include="Content\Images\Small\splash-pelican.png" />
+    <Content Include="Content\Images\Small\splash.png" />
+    <Content Include="Content\Images\Small\steamer.png" />
+    <Content Include="Content\Images\Small\stoney.png" />
+    <Content Include="Content\Images\Small\stormy.png" />
+    <Content Include="Content\Images\Small\swoop.png" />
+    <Content Include="Content\Images\Small\t102.jpg" />
+    <Content Include="Content\Images\Small\t103.jpg" />
+    <Content Include="Content\Images\Small\t104.jpg" />
+    <Content Include="Content\Images\Small\t105.jpg" />
+    <Content Include="Content\Images\Small\t106.jpg" />
+    <Content Include="Content\Images\Small\t1174.jpg" />
+    <Content Include="Content\Images\Small\t1350.jpg" />
+    <Content Include="Content\Images\Small\t1410.jpg" />
+    <Content Include="Content\Images\Small\t2310.jpg" />
+    <Content Include="Content\Images\Small\t233.jpg" />
+    <Content Include="Content\Images\Small\t234.jpg" />
+    <Content Include="Content\Images\Small\t235.jpg" />
+    <Content Include="Content\Images\Small\t237.jpg" />
+    <Content Include="Content\Images\Small\t238.jpg" />
+    <Content Include="Content\Images\Small\t247.jpg" />
+    <Content Include="Content\Images\Small\t249.jpg" />
+    <Content Include="Content\Images\Small\t2498.jpg" />
+    <Content Include="Content\Images\Small\t259.jpg" />
+    <Content Include="Content\Images\Small\t260.jpg" />
+    <Content Include="Content\Images\Small\t2730.jpg" />
+    <Content Include="Content\Images\Small\t279.jpg" />
+    <Content Include="Content\Images\Small\t3390.jpg" />
+    <Content Include="Content\Images\Small\t3410.jpg" />
+    <Content Include="Content\Images\Small\t342.jpg" />
+    <Content Include="Content\Images\Small\t400.jpg" />
+    <Content Include="Content\Images\Small\t401.jpg" />
+    <Content Include="Content\Images\Small\t402.jpg" />
+    <Content Include="Content\Images\Small\t403.jpg" />
+    <Content Include="Content\Images\Small\t4124.jpg" />
+    <Content Include="Content\Images\Small\t413.jpg" />
+    <Content Include="Content\Images\Small\t414.jpg" />
+    <Content Include="Content\Images\Small\t416.jpg" />
+    <Content Include="Content\Images\Small\t417.jpg" />
+    <Content Include="Content\Images\Small\t418.jpg" />
+    <Content Include="Content\Images\Small\t419.jpg" />
+    <Content Include="Content\Images\Small\t420.jpg" />
+    <Content Include="Content\Images\Small\t421.jpg" />
+    <Content Include="Content\Images\Small\t422.jpg" />
+    <Content Include="Content\Images\Small\t423.jpg" />
+    <Content Include="Content\Images\Small\t424.jpg" />
+    <Content Include="Content\Images\Small\t425.jpg" />
+    <Content Include="Content\Images\Small\t426.jpg" />
+    <Content Include="Content\Images\Small\t427.jpg" />
+    <Content Include="Content\Images\Small\t428.jpg" />
+    <Content Include="Content\Images\Small\t429.jpg" />
+    <Content Include="Content\Images\Small\t430.jpg" />
+    <Content Include="Content\Images\Small\t431.jpg" />
+    <Content Include="Content\Images\Small\t432.jpg" />
+    <Content Include="Content\Images\Small\t433.jpg" />
+    <Content Include="Content\Images\Small\t435.jpg" />
+    <Content Include="Content\Images\Small\t436.jpg" />
+    <Content Include="Content\Images\Small\t4364.jpg" />
+    <Content Include="Content\Images\Small\t437.jpg" />
+    <Content Include="Content\Images\Small\t438.jpg" />
+    <Content Include="Content\Images\Small\t440.jpg" />
+    <Content Include="Content\Images\Small\t443.jpg" />
+    <Content Include="Content\Images\Small\t444.jpg" />
+    <Content Include="Content\Images\Small\t445.jpg" />
+    <Content Include="Content\Images\Small\t446.jpg" />
+    <Content Include="Content\Images\Small\t448.jpg" />
+    <Content Include="Content\Images\Small\t449.jpg" />
+    <Content Include="Content\Images\Small\t450.jpg" />
+    <Content Include="Content\Images\Small\t451.jpg" />
+    <Content Include="Content\Images\Small\t452.jpg" />
+    <Content Include="Content\Images\Small\t453.jpg" />
+    <Content Include="Content\Images\Small\t455.jpg" />
+    <Content Include="Content\Images\Small\t456.jpg" />
+    <Content Include="Content\Images\Small\t458.jpg" />
+    <Content Include="Content\Images\Small\t459.jpg" />
+    <Content Include="Content\Images\Small\t460.jpg" />
+    <Content Include="Content\Images\Small\t461.jpg" />
+    <Content Include="Content\Images\Small\t462.jpg" />
+    <Content Include="Content\Images\Small\t463.jpg" />
+    <Content Include="Content\Images\Small\t476.jpg" />
+    <Content Include="Content\Images\Small\t477.jpg" />
+    <Content Include="Content\Images\Small\t478.jpg" />
+    <Content Include="Content\Images\Small\t479.jpg" />
+    <Content Include="Content\Images\Small\t480.jpg" />
+    <Content Include="Content\Images\Small\t481.jpg" />
+    <Content Include="Content\Images\Small\t482.jpg" />
+    <Content Include="Content\Images\Small\t483.jpg" />
+    <Content Include="Content\Images\Small\t484.jpg" />
+    <Content Include="Content\Images\Small\t486.jpg" />
+    <Content Include="Content\Images\Small\t487.jpg" />
+    <Content Include="Content\Images\Small\t488.jpg" />
+    <Content Include="Content\Images\Small\t489.jpg" />
+    <Content Include="Content\Images\Small\t491.jpg" />
+    <Content Include="Content\Images\Small\t492.jpg" />
+    <Content Include="Content\Images\Small\t493.jpg" />
+    <Content Include="Content\Images\Small\t494.jpg" />
+    <Content Include="Content\Images\Small\t495.jpg" />
+    <Content Include="Content\Images\Small\t498.jpg" />
+    <Content Include="Content\Images\Small\t499.jpg" />
+    <Content Include="Content\Images\Small\t500.jpg" />
+    <Content Include="Content\Images\Small\t503.jpg" />
+    <Content Include="Content\Images\Small\t504.jpg" />
+    <Content Include="Content\Images\Small\t505.jpg" />
+    <Content Include="Content\Images\Small\t506.jpg" />
+    <Content Include="Content\Images\Small\t507.jpg" />
+    <Content Include="Content\Images\Small\t509.jpg" />
+    <Content Include="Content\Images\Small\t510.jpg" />
+    <Content Include="Content\Images\Small\t511.jpg" />
+    <Content Include="Content\Images\Small\t512.jpg" />
+    <Content Include="Content\Images\Small\t513.jpg" />
+    <Content Include="Content\Images\Small\t515.jpg" />
+    <Content Include="Content\Images\Small\t516.jpg" />
+    <Content Include="Content\Images\Small\t517.jpg" />
+    <Content Include="Content\Images\Small\t518.jpg" />
+    <Content Include="Content\Images\Small\t519.jpg" />
+    <Content Include="Content\Images\Small\t521.jpg" />
+    <Content Include="Content\Images\Small\t522.jpg" />
+    <Content Include="Content\Images\Small\t524.jpg" />
+    <Content Include="Content\Images\Small\t525.jpg" />
+    <Content Include="Content\Images\Small\t526.jpg" />
+    <Content Include="Content\Images\Small\t529.jpg" />
+    <Content Include="Content\Images\Small\t530.jpg" />
+    <Content Include="Content\Images\Small\t531.jpg" />
+    <Content Include="Content\Images\Small\t533.jpg" />
+    <Content Include="Content\Images\Small\t534.jpg" />
+    <Content Include="Content\Images\Small\t537.jpg" />
+    <Content Include="Content\Images\Small\t538.jpg" />
+    <Content Include="Content\Images\Small\t540.jpg" />
+    <Content Include="Content\Images\Small\t541.jpg" />
+    <Content Include="Content\Images\Small\t543.jpg" />
+    <Content Include="Content\Images\Small\t545.jpg" />
+    <Content Include="Content\Images\Small\t546.jpg" />
+    <Content Include="Content\Images\Small\t547.jpg" />
+    <Content Include="Content\Images\Small\t548.jpg" />
+    <Content Include="Content\Images\Small\t549.jpg" />
+    <Content Include="Content\Images\Small\t550.jpg" />
+    <Content Include="Content\Images\Small\t551.jpg" />
+    <Content Include="Content\Images\Small\t552.jpg" />
+    <Content Include="Content\Images\Small\t553.jpg" />
+    <Content Include="Content\Images\Small\t554.jpg" />
+    <Content Include="Content\Images\Small\t556.jpg" />
+    <Content Include="Content\Images\Small\t557.jpg" />
+    <Content Include="Content\Images\Small\t558.jpg" />
+    <Content Include="Content\Images\Small\t559.jpg" />
+    <Content Include="Content\Images\Small\t561.jpg" />
+    <Content Include="Content\Images\Small\t563.jpg" />
+    <Content Include="Content\Images\Small\t564.jpg" />
+    <Content Include="Content\Images\Small\t565.jpg" />
+    <Content Include="Content\Images\Small\t566.jpg" />
+    <Content Include="Content\Images\Small\t567.jpg" />
+    <Content Include="Content\Images\Small\t568.jpg" />
+    <Content Include="Content\Images\Small\t570.jpg" />
+    <Content Include="Content\Images\Small\t571.jpg" />
+    <Content Include="Content\Images\Small\t572.jpg" />
+    <Content Include="Content\Images\Small\t573.jpg" />
+    <Content Include="Content\Images\Small\t574.jpg" />
+    <Content Include="Content\Images\Small\t576.jpg" />
+    <Content Include="Content\Images\Small\t577.jpg" />
+    <Content Include="Content\Images\Small\t578.jpg" />
+    <Content Include="Content\Images\Small\t580.jpg" />
+    <Content Include="Content\Images\Small\t581.jpg" />
+    <Content Include="Content\Images\Small\t582.jpg" />
+    <Content Include="Content\Images\Small\t584.jpg" />
+    <Content Include="Content\Images\Small\t586.jpg" />
+    <Content Include="Content\Images\Small\t587.jpg" />
+    <Content Include="Content\Images\Small\t588.jpg" />
+    <Content Include="Content\Images\Small\teddy.png" />
+    <Content Include="Content\Images\Small\tennessee-tess.png" />
+    <Content Include="Content\Images\Small\thunder.png" />
+    <Content Include="Content\Images\Small\tim-e-gator.png" />
+    <Content Include="Content\Images\Small\tipper-t-bull.png" />
+    <Content Include="Content\Images\Small\torch.png" />
+    <Content Include="Content\Images\Small\tremor.png" />
+    <Content Include="Content\Images\Small\trusty.png" />
+    <Content Include="Content\Images\Small\uncle-slam.png" />
+    <Content Include="Content\Images\Small\wally-the-walnut.png" />
+    <Content Include="Content\Images\Small\webbly.png" />
+    <Content Include="Content\Images\Small\wool-e-bull.png" />
+    <Content Include="Content\Images\Small\woolie.png" />
+    <Content Include="Content\Images\Small\wooly-bully.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50485</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50485/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
