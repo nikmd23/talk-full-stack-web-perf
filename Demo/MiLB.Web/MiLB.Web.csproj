@@ -122,8 +122,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\ball.jpg" />
+    <Content Include="Content\Images\ball_footer.png" />
+    <Content Include="Content\Images\content_bg.jpg" />
+    <Content Include="Content\Images\footer_bg.jpg" />
+    <Content Include="Content\Images\head_bg.jpg" />
+    <Content Include="Content\Images\home.jpg" />
+    <Content Include="Content\Images\img1.jpg" />
+    <Content Include="Content\Images\img2.jpg" />
+    <Content Include="Content\Images\img3.jpg" />
+    <Content Include="Content\Images\img4.jpg" />
     <Content Include="Content\Images\Large\abner.png" />
     <Content Include="Content\Images\Large\ace.png" />
     <Content Include="Content\Images\Large\archie.png" />
@@ -444,6 +452,7 @@
     <Content Include="Content\Images\Large\wool-e-bull.png" />
     <Content Include="Content\Images\Large\woolie.png" />
     <Content Include="Content\Images\Large\wooly-bully.png" />
+    <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\Logo\aberdeen-ironbirds.png" />
     <Content Include="Content\Images\Logo\akron-aeros.png" />
     <Content Include="Content\Images\Logo\albuquerque-isotopes.png" />
@@ -764,6 +773,22 @@
     <Content Include="Content\Images\Logo\wilmington-blue-rocks.png" />
     <Content Include="Content\Images\Logo\winston-salem-dash.png" />
     <Content Include="Content\Images\Logo\wisconsin-timber-rattlers.png" />
+    <Content Include="Content\Images\m1.png" />
+    <Content Include="Content\Images\m1_a.png" />
+    <Content Include="Content\Images\m2.png" />
+    <Content Include="Content\Images\m2_a.png" />
+    <Content Include="Content\Images\m3.png" />
+    <Content Include="Content\Images\m3_a.png" />
+    <Content Include="Content\Images\m4.png" />
+    <Content Include="Content\Images\m4_a.png" />
+    <Content Include="Content\Images\m5.png" />
+    <Content Include="Content\Images\m5_a.png" />
+    <Content Include="Content\Images\m6.png" />
+    <Content Include="Content\Images\m6_a.png" />
+    <Content Include="Content\Images\more.gif" />
+    <Content Include="Content\Images\punkte.gif" />
+    <Content Include="Content\Images\punkte2.gif" />
+    <Content Include="Content\Images\punkte3.gif" />
     <Content Include="Content\Images\Small\abner.png" />
     <Content Include="Content\Images\Small\ace.png" />
     <Content Include="Content\Images\Small\archie.png" />
@@ -1084,18 +1109,12 @@
     <Content Include="Content\Images\Small\wool-e-bull.png" />
     <Content Include="Content\Images\Small\woolie.png" />
     <Content Include="Content\Images\Small\wooly-bully.png" />
+    <Content Include="Content\Images\website.gif" />
+    <Content Include="Content\Images\welcome.jpg" />
+    <Content Include="Content\screen.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Content\validation.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -1108,18 +1127,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
