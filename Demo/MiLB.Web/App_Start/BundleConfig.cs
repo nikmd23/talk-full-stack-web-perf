@@ -8,6 +8,7 @@ namespace MiLB.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/Content/css")
+                .Include("~/Content/normalize.css")
                 .Include("~/Content/validation.css")
                 .Include("~/Content/screen.css"));
         }

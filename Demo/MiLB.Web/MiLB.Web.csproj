@@ -1111,6 +1111,7 @@
     <Content Include="Content\Images\Small\wooly-bully.png" />
     <Content Include="Content\Images\website.gif" />
     <Content Include="Content\Images\welcome.jpg" />
+    <Content Include="Content\normalize.css" />
     <Content Include="Content\screen.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

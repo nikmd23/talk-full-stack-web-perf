@@ -17,6 +17,7 @@ body {
 h1 {
 	font-family:Arial, Tahoma, Verdana;
 	font-size:16px;
+    margin: 0;
 }
 .clear {
 	clear:both;
