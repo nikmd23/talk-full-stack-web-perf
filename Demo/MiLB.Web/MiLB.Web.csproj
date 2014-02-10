@@ -139,7 +139,6 @@
     <Content Include="Content\Images\img1.jpg" />
     <Content Include="Content\Images\img2.jpg" />
     <Content Include="Content\Images\img3.jpg" />
-    <Content Include="Content\Images\img4.jpg" />
     <Content Include="Content\Images\MascotLarge\abner.png" />
     <Content Include="Content\Images\MascotLarge\ace.png" />
     <Content Include="Content\Images\MascotLarge\archie.png" />
@@ -795,19 +794,6 @@
     <Content Include="Content\Images\Team\wilmington-blue-rocks.png" />
     <Content Include="Content\Images\Team\winston-salem-dash.png" />
     <Content Include="Content\Images\Team\wisconsin-timber-rattlers.png" />
-    <Content Include="Content\Images\m1.png" />
-    <Content Include="Content\Images\m1_a.png" />
-    <Content Include="Content\Images\m2.png" />
-    <Content Include="Content\Images\m2_a.png" />
-    <Content Include="Content\Images\m3.png" />
-    <Content Include="Content\Images\m3_a.png" />
-    <Content Include="Content\Images\m4.png" />
-    <Content Include="Content\Images\m4_a.png" />
-    <Content Include="Content\Images\m5.png" />
-    <Content Include="Content\Images\m5_a.png" />
-    <Content Include="Content\Images\m6.png" />
-    <Content Include="Content\Images\m6_a.png" />
-    <Content Include="Content\Images\more.gif" />
     <Content Include="Content\Images\MascotSmall\abner.png" />
     <Content Include="Content\Images\MascotSmall\ace.png" />
     <Content Include="Content\Images\MascotSmall\archie.png" />
@@ -1128,8 +1114,7 @@
     <Content Include="Content\Images\MascotSmall\wool-e-bull.png" />
     <Content Include="Content\Images\MascotSmall\woolie.png" />
     <Content Include="Content\Images\MascotSmall\wooly-bully.png" />
-    <Content Include="Content\Images\website.gif" />
-    <Content Include="Content\Images\welcome.jpg" />
+    <Content Include="Content\Images\welcome.png" />
     <Content Include="Content\normalize.css" />
     <Content Include="Content\screen.css" />
     <Content Include="favicon.ico" />
