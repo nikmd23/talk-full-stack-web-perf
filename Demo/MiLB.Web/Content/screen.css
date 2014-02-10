@@ -1,12 +1,12 @@
 ﻿* {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 html {
 	height:100%;
 }
 img {
-	border: 0px;
+	border: 0;
 }
 body {
 	font-family:Arial, Tahoma, Verdana;
@@ -24,9 +24,9 @@ h1 {
 }
 .clear {
 	clear:both;
-	font-size:0%;
-	line-height:0%;
-	height:0px;
+	font-size:0;
+	line-height:0;
+	height:0;
 }
 #container {
 	width: 100%;
@@ -42,7 +42,7 @@ header {
 }
 #header_center {
 	width:990px;
-	margin:0px auto;
+	margin:0 auto;
 	height: 223px;
 }
 .line_logo {
@@ -52,9 +52,7 @@ header {
 	margin-left:97px;
 	width:814px;
 	height:155px;
-}
-.logo[class] {
-	background: url('/content/images/logo.png') no-repeat;
+    background: url('/content/images/logo.png') no-repeat;
 }
 #content {
 	width: 100%;
@@ -65,7 +63,7 @@ header {
 	font-size:11px;
 	width: 800px;
 	padding-bottom:40px;
-	margin:0px auto;
+	margin:0 auto;
 }
 .column {
 	width:50%;
@@ -79,26 +77,22 @@ footer {
 }
 .footer_center {
 	width:990px;
-	margin:0px auto;
+	margin:0 auto;
 	height: 53px;
 }
 .footer_ball {
 	width:52px;
 	padding-left:682px;
-	padding-top:0px;
+	padding-top:0;
 }
 .ball {
 	width:52px;
 	height:24px;
-/*	padding-left:682px; */
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/content/images/ball_footer.png');
-}
-.ball[class] {
-	background: url('/content/images/ball_footer.png') no-repeat;
+    background: url('/content/images/ball_footer.png') no-repeat;
 }
 .footer_text {
 	width:358px;
-	margin:0px auto;
+	margin:0 auto;
 	padding-top:10px;
 	color:#fffefe;
 	font-size:11px;

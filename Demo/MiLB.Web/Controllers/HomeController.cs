@@ -1,5 +1,4 @@
-﻿using System.Data.Entity;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
 using MiLB.Web.Models;
@@ -12,18 +11,12 @@ namespace MiLB.Web.Controllers
 
         public ActionResult Index()
         {
-            var mascots = dataContext.Mascots.ToList();
-
-            var mascot = mascots.First();
-            var league = mascot.Team.League;
-
-            dataContext.Leagues.Include(l => l.Teams);
-
-            var teams = dataContext.Teams.ToList();
-
-            var mascot1 = teams.First().Mascot;
-
             return View();
+        }
+
+        public ActionResult League(string id = null)
+        {
+            return Content(id);
         }
 
         public void Script()
