@@ -4,8 +4,6 @@
     ViewBag.Title = "All Mascots";
 }
 
-<!DOCTYPE html>
-
 @foreach (var league in Model.Select(m => m.Team.League).Distinct().OrderBy(l => l.Name))
 {
     @Html.Partial("League", league.Teams.Select(t => t.Mascot).ToList())
