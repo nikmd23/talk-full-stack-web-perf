@@ -21,125 +21,31 @@
     <script async type="text/javascript" onload="inline()" src="/Home/Script"></script>
 
     <div id="container">
-        <div id="header">
+        <header>
             <div id="header_center">
                 <div class="line_logo">
-                    <div class="logo">&nbsp;</div>
+                    <div class="logo"></div>
                 </div>
             </div>
-        </div>
+        </header>
         <div id="content">
             <div class="content">
                 <div class="content">
-                    <div class="content_left">
-                        <img src="/content/images/welcome.png" alt="" />
-
-                        <div class="div1_left">
-                            Vel, dolor munere tamquam melno, laudem equidem abhorreant eam incu vis unum gubergren. Vim ea tollit elaboraret contentiones, ne eruditi indoctum his, vim at facete accusam voluptatibus. Ne vix solet iriure meliore, te pri laoreet reprehendunt. Mazim dolorem contentiones ius et.
-                        </div>
-
-                        <h1>News &amp; Events</h1>
-
-                        <div class="div3_left">
-                            <div class="div1">
-                                <img src="/content/images/img1.jpg" alt="" />
-                            </div>
-                            <div class="div2">
-                                <b>Vel, dolor munere tamquam melno,</b> laudem edem abhorreant eam incu vis unum gubergren. <a href="#">Vim ea tollit elaboraret contentiones, ne eruditi indoctum his, vim at facete accusam voluptatibus.</a> Ne vix solet iriure meliorepri laoreet reprehendunt azim dolorem contentio.
-                            </div>
-                            <div class="clear">
-                                &nbsp;
-                            </div>
-                        </div>
-
-                        <hr />
-
-                        <div class="div3_left">
-                            <div class="div1">
-                                <img src="/content/images/img2.jpg" alt="" />
-                            </div>
-                            <div class="div2">
-                                <b>Laudem edem abhorreant eam incu</b><br />
-                                Vis unum gubergren. Vim ea tollit elaboraret contentiones, ne eruditi indoctum his, vim at facete accusam voluptati-<br />bus. Ne vix solet iriure meliore pri laoreet reprehendunt azim dolorem contentio.
-                            </div>
-                            <div class="clear">
-                                &nbsp;
-                            </div>
-                        </div>
-
-                        <hr />
-
-                        <div class="div3_left">
-                            <div class="div1">
-                                <img src="/content/images/img3.jpg" alt="" />
-                            </div>
-                            <div class="div2">
-                                <b>Laudem edem abhorreant eam incu</b><br />
-                                Vis unum gubergren. Vim ea tollit elaboraret contentiones, ne eruditi indoctum his, vim at facete accusam voluptati-<br />bus. Ne vix solet iriure meliore pri laoreet reprehendunt azim dolorem contentio.
-                            </div>
-                            <div class="clear">
-                                &nbsp;
-                            </div>
-                        </div>
-
-                        <hr />
-                    </div>
-                    <div class="content_right">
-                        <h1>MiLB Leauges</h1>
-
-                        <div class="div1_right">
-                            
-                            
-                            <img src="/Content/Images/League/appalachian.png"/>
-                            <img src="/Content/Images/League/california.png"/>
-                            <img src="/Content/Images/League/carolina.png"/>
-                            <img src="/Content/Images/League/eastern.png"/>
-                            <img src="/Content/Images/League/florida-state.png"/>
-
-                        </div>
-
-                        <h1>Championships</h1>
-
-                        <div class="div7_right">
-                            <div class="left">
-                                <b>Pee-Wee Boys (13 &amp; under):</b><br />
-                                August 21-24, 2008<br />
-                                Vaughan, ON
-                            </div>
-                            <div class="right">
-                                <b>Senior Men (open age group):</b><br />
-                                August 21-24, 2008<br />
-                                Brandon, MB
-                            </div>
-                            <div class="clear">&nbsp;</div>
-                        </div>
-                        <div class="div8_right">
-                            <div class="web1">
-                                <a href="#">Website</a>
-                            </div>
-                            <div class="web2">
-                                <a href="#">Website</a>
-                            </div>
-                            <div class="clear">&nbsp;</div>
-                            
-                            <hr/>
-
-                        </div>
-                    </div>
-                    <div class="clear">&nbsp;</div>
+                    @RenderBody()
+                    <div class="clear"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="footer">
-        <div class="footer_centr">
-            <div class="footer_ball"><div class="ball">&nbsp;</div></div>
+    <footer>
+        <div class="footer_center">
+            <div class="footer_ball"><div class="ball"></div></div>
             <div class="footer_text">
                 Full Stack Web Performance © @DateTime.Now.Year. All Rights Reserved.
             </div>
         </div>
-    </div><!-- @RenderBody() -->
+    </footer>
 </body>
 
 </html>
