@@ -12,6 +12,14 @@
     <link href="~/Content/screen.css" rel="stylesheet" />
 </head>
 <body>
+    <script>
+        function inline() {
+            console.log('i am inline');
+            loaded();
+        }
+    </script>
+    <script async type="text/javascript" onload="inline()" src="/Home/Script"></script>
+    
     <div id="container">
         <div id="header">
             <div id="header_center">
@@ -179,7 +187,7 @@
             </div>
         </div>
     </div>
-    
+
     <div id="footer">
         <div class="footer_centr">
             <div class="footer_ball"><div class="ball">&nbsp;</div></div>
@@ -187,8 +195,7 @@
                 Full Stack Web Performance © @DateTime.Now.Year. All Rights Reserved.
             </div>
         </div>
-    </div>
-
-    <!-- @RenderBody() -->
+    </div><!-- @RenderBody() -->
 </body>
+
 </html>
