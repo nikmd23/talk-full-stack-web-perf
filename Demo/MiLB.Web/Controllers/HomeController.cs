@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
 using MiLB.Web.Models;
@@ -14,9 +16,17 @@ namespace MiLB.Web.Controllers
             return View();
         }
 
-        public ActionResult League(string id = null)
+        public ActionResult All()
         {
-            return Content(id);
+            return View(dataContext.Mascots.ToList());
+        }
+
+        public ActionResult League(string id)
+        {
+            var mascots = dataContext.Mascots
+                    .Where(m => m.Team.League.Name.Equals(id, StringComparison.InvariantCultureIgnoreCase));
+
+            return View(mascots.ToList());
         }
 
         public void Script()
