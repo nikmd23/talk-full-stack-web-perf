@@ -808,9 +808,6 @@
     <Content Include="Content\Images\m6.png" />
     <Content Include="Content\Images\m6_a.png" />
     <Content Include="Content\Images\more.gif" />
-    <Content Include="Content\Images\punkte.gif" />
-    <Content Include="Content\Images\punkte2.gif" />
-    <Content Include="Content\Images\punkte3.gif" />
     <Content Include="Content\Images\MascotSmall\abner.png" />
     <Content Include="Content\Images\MascotSmall\ace.png" />
     <Content Include="Content\Images\MascotSmall\archie.png" />

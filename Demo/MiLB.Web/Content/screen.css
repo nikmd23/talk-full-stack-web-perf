@@ -14,10 +14,19 @@ body {
 	font-size:10px;
 	height:100%;
 }
+hr {
+    border: 0;
+    border-bottom: thin dashed gray;
+    margin: 1em 2em 0 0;
+}
 h1 {
 	font-family:Arial, Tahoma, Verdana;
 	font-size:16px;
-    margin: 0;
+	margin: 1em 1em 0 0;
+    background-image: url('/content/images/ball.jpg'); /* Convert to DataUri at http://dataurl.net/? */
+	background-repeat: no-repeat;
+	padding: 0 0 0.5em 2em;
+	border-bottom: thin dashed gray;
 }
 .clear {
 	clear:both;
@@ -204,19 +213,6 @@ div.menu {
 	padding-top:12px;
 	padding-right:26px;
 }
-.div2_left {
-	width:374px;
-	padding-left:4px;
-	padding-top:36px;
-}
-.div1_ball {
-	float:left;
-	width:24px;
-}
-.div2_ball {
-	float:left;
-	padding-left:4px;
-}
 .div3_left {
 	width:404px;
 	padding-left:4px;
@@ -234,14 +230,6 @@ div.menu {
 .div2 a {
 	color:#447396;
 	text-decoration:underline;
-}
-.div4_left {
-	width:404px;
-	padding-top:18px;
-	height:13px;
-}
-.div_right {
-	width:390px;
 }
 .div1_right {
 	width:379px;
@@ -272,10 +260,6 @@ div.menu {
 	width:355px;
 	padding-top:20px;
 }
-.div6_right {
-	width:355px;
-	padding-top:26px;
-}
 .div7_right {
 	width:378px;
 	padding-top:10px;
@@ -297,32 +281,10 @@ div.menu {
 	width:208px;
 	height:28px;
 }
-.web1 div {
-	width:189px;
-	height:1px;
-	background:url('/content/images/punkte3.gif');
-	font-size:0px;
-	line-height:0px;
-}
 .web2 {
 	float:left;
 	width:170px;
 	height:28px;
-}
-.web2 div {
-	width:170px;
-	height:1px;
-	background:url('/content/images/punkte3.gif');
-	font-size:0px;
-	line-height:0px;
-}
-.div9_right {
-	width:378px;
-	padding-top:10px;
-}
-.div10_right {
-	width:378px;
-	padding-top:15px;
 }
 #footer {
 	width: 100%;
@@ -355,8 +317,4 @@ div.menu {
 	padding-top:10px;
 	color:#fffefe;
 	font-size:11px;
-}
-.footer_text a {
-	color:#fffefe;
-	text-decoration:underline;
 }
