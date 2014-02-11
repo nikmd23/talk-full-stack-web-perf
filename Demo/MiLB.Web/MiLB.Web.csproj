@@ -199,7 +199,6 @@
     <Content Include="Content\Images\MascotLarge\hambone.png" />
     <Content Include="Content\Images\MascotLarge\hamilton-r-head.png" />
     <Content Include="Content\Images\MascotLarge\heater.png" />
-    <Content Include="Content\Images\MascotLarge\hickory-and-the-hot-dog-horse.png" />
     <Content Include="Content\Images\MascotLarge\homer-2.png" />
     <Content Include="Content\Images\MascotLarge\homer-3.png" />
     <Content Include="Content\Images\MascotLarge\homer-the-dragon.png" />
@@ -207,6 +206,7 @@
     <Content Include="Content\Images\MascotLarge\homer.png" />
     <Content Include="Content\Images\MascotLarge\hootz.png" />
     <Content Include="Content\Images\MascotLarge\hornsby.png" />
+    <Content Include="Content\Images\MascotLarge\hot-dog-horse.png" />
     <Content Include="Content\Images\MascotLarge\humphrey-hawk.png" />
     <Content Include="Content\Images\MascotLarge\ike-the-spike.png" />
     <Content Include="Content\Images\MascotLarge\jay-cee.png" />
@@ -316,6 +316,7 @@
     <Content Include="Content\Images\League\southern.png" />
     <Content Include="Content\Images\League\texas.png" />
     <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\MascotSmall\hot-dog-horse.png" />
     <Content Include="Content\Images\Team\aberdeen-ironbirds.png" />
     <Content Include="Content\Images\Team\akron-aeros.png" />
     <Content Include="Content\Images\Team\albuquerque-isotopes.png" />
@@ -535,7 +536,6 @@
     <Content Include="Content\Images\MascotSmall\hambone.png" />
     <Content Include="Content\Images\MascotSmall\hamilton-r-head.png" />
     <Content Include="Content\Images\MascotSmall\heater.png" />
-    <Content Include="Content\Images\MascotSmall\hickory-and-the-hot-dog-horse.png" />
     <Content Include="Content\Images\MascotSmall\homer-2.png" />
     <Content Include="Content\Images\MascotSmall\homer-3.png" />
     <Content Include="Content\Images\MascotSmall\homer-the-dragon.png" />
