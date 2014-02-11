@@ -8,9 +8,9 @@
 
 @foreach (var mascot in Model)
 {
-    <div style="display: inline-block; margin: 1em; text-align: left;">
-        <div style="width: 150px; height: 190px; background-image: url('/Content/Images/MascotSmall/@(mascot.Slug).png'); position:relative;">
-            <img src="/Content/Images/Team/@(mascot.Team.Slug).png" style="position: absolute; bottom: 0; right:0;" />
+    <div class="mascot-card">
+        <div style="background-image: url('/Content/Images/MascotSmall/@(mascot.Slug).png');">
+            <img src="/Content/Images/Team/@(mascot.Team.Slug).png" />
         </div>
         <h3>@mascot.Name</h3>
         <h4>@mascot.Team.Name</h4>
