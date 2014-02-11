@@ -39,6 +39,8 @@ header {
 	height: 180px;
 	width: 100%;
 	background: url('/content/images/head_bg.jpg');
+    position: relative;
+    z-index: 5;
 }
 #header_center {
 	width:990px;
@@ -96,4 +98,10 @@ footer {
 	padding-top:10px;
 	color:#fffefe;
 	font-size:11px;
+}
+.league-badge {
+    position: fixed; 
+    top:1em; 
+    left: 240px; 
+    //-webkit-transform: translateZ(0);
 }

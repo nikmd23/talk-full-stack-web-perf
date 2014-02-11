@@ -4,7 +4,7 @@
     ViewBag.Title = Model.First().Team.League.Name;
 }
 
-<h1>@Model.First().Team.League.Name</h1>
+<h1 data-slug="@Model.First().Team.League.Slug">@Model.First().Team.League.Name</h1>
 
 @foreach (var mascot in Model)
 {
