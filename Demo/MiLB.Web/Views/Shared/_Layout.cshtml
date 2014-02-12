@@ -12,14 +12,6 @@
     <link href="~/Content/screen.css" rel="stylesheet" />
 </head>
 <body>
-    <script>
-        function inline() {
-            console.log('i am inline');
-            loaded();
-        }
-    </script>
-    <script async type="text/javascript" onload="inline()" src="/Home/Script"></script>
-
     <div id="container">
         <header>
             <div id="header_center">
@@ -31,6 +23,8 @@
         <div id="content">
             <div class="content">
                 <div class="content">
+                    @*<script type="text/javascript" src="/Home/ThirdPartyScript"></script>*@
+
                     @RenderBody()
                     <div class="clear"></div>
                 </div>

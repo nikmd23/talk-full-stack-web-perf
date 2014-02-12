@@ -30,12 +30,12 @@ namespace MiLB.Web.Controllers
             return View(mascots.ToList());
         }
 
-        public void Script()
+        public void ThirdPartyScript()
         {
             Thread.Sleep(3000);
 
             Response.ContentType = "application/javascript";
-            Response.Write("console.log('Loose alert'); function loaded(){console.log('in function');}");
+            Response.Write("console.log('Downloaded 3rd party script.'); function init(){ console.log('Initialized 3rd party script.'); }");
         }
 
         protected override void Dispose(bool disposing)
