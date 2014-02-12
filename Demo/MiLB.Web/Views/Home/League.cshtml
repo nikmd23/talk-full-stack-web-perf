@@ -9,7 +9,7 @@
 @foreach (var mascot in Model)
 {
     <div class="mascot-card">
-        <div style="background-image: url('/Content/Images/MascotSmall/@(mascot.Slug).png');">
+        <div style="background-image: url('/Content/Images/MascotSmall/@mascot.Team.League.Slug/@(mascot.Slug).png');">
             <img src="/Content/Images/Team/@(mascot.Team.Slug).png" />
         </div>
         <h3>@mascot.Name</h3>
