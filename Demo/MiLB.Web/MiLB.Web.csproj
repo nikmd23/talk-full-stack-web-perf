@@ -656,6 +656,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
+    <Content Include="Views\Home\Champions.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\League.cshtml" />
