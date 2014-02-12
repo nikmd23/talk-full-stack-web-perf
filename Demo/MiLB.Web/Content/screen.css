@@ -17,7 +17,7 @@ h1 {
 	font-family:Arial, Tahoma, Verdana;
 	font-size:16px;
 	margin: 1em 1em 1em 0;
-    background-image: url('/content/images/ball.jpg'); /* Convert to DataUri at http://dataurl.net/? */
+    background-image: url('/content/images/ball.jpg');
 	background-repeat: no-repeat;
 	padding: 0 0 0.5em 2em;
 	border-bottom: thin dashed gray;
