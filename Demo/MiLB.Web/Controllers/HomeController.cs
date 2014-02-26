@@ -25,7 +25,7 @@ namespace MiLB.Web.Controllers
         public ActionResult League(string id)
         {
             var mascots = dataContext.Mascots
-                    .Where(m => m.Team.League.Name.Equals(id, StringComparison.InvariantCultureIgnoreCase));
+                    .Where(m => m.Team.League.Slug.Equals(id, StringComparison.InvariantCultureIgnoreCase));
 
             return View(mascots.ToList());
         }
