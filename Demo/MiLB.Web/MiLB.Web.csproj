@@ -124,6 +124,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DataContext.cs" />
+    <Compile Include="Models\DataContextInitializer.cs" />
     <Compile Include="Models\League.cs" />
     <Compile Include="Models\Mascot.cs" />
     <Compile Include="Models\Team.cs" />
