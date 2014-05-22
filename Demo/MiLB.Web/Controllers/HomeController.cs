@@ -14,7 +14,7 @@ namespace MiLB.Web.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View(dataContext.Mascots.Where(m => m.IsHero).Single());
         }
 
         public ActionResult All()

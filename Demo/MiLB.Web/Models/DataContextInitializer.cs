@@ -35,7 +35,7 @@ namespace MiLB.Web.Models
             {
                 new Mascot { Id = 1, TeamId = 1, Name = "Celery", Slug = "celery", IsChampion = false, TwitterHandle = "BisonsCelery" },
                 new Mascot { Id = 2, TeamId = 2, Name = "Homer the Dragon", Slug = "homer-the-dragon", IsChampion = false },
-                new Mascot { Id = 3, TeamId = 3, Name = "LouSeal", Slug = "louseal", IsChampion = true, TwitterHandle = "ClippersLouSeal" },
+                new Mascot { Id = 3, TeamId = 3, Name = "LouSeal", Slug = "louseal", IsChampion = true, TwitterHandle = "ClippersLouSeal", IsHero = true },
                 new Mascot { Id = 4, TeamId = 4, Name = "Wool E. Bull", Slug = "wool-e-bull", IsChampion = false, TwitterHandle = "WoolEBull" },
                 new Mascot { Id = 5, TeamId = 5, Name = "Chopper", Slug = "chopper", IsChampion = false, TwitterHandle = "ChopperGBraves" },
                 new Mascot { Id = 6, TeamId = 6, Name = "Rowdie", Slug = "rowdie", IsChampion = false, TwitterHandle = "RowdieBear" },

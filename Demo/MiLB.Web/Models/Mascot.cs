@@ -15,6 +15,8 @@ namespace MiLB.Web.Models
 
         public bool IsChampion { get; set; }
 
+        public bool IsHero { get; set; }
+
         [MaxLength(15)]
         public string TwitterHandle { get; set; }
 

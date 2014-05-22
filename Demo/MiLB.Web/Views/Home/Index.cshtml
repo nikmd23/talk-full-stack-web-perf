@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Mascot
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -15,9 +17,9 @@
         <a href="/home/champions">See All the Winners</a>
     </p>
 
-    <h1>Congratulations LouSeal!</h1>
+    <h1>Congratulations @Model.Name!</h1>
 
-    <img src="/Content/Images/MascotLarge/winner.png" />
+    <img src="/Content/Images/MascotLarge/@(Model.Slug).png" style="width: 95%" />
 </div>
 
 <div class="column" style="text-align: center;">
