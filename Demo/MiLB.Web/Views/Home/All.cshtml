@@ -4,7 +4,7 @@
     ViewBag.Title = "All Mascots";
 }
 
-<img src="" id="leagueImg" class="league-badge"/>
+<img src="" id="leagueImg" class="league-badge" />
 
 @foreach (var league in Model.Select(m => m.Team.League).Distinct().OrderBy(l => l.Name))
 {
@@ -14,10 +14,10 @@
 @section scripts
 {
     <script>
-        $(function() {
-            $(window).scroll(function() {
+        $(function () {
+            $(window).scroll(function () {
                 var top = $(window).scrollTop();
-                $.each($('h1').get().reverse(), function(i, item) {
+                $.each($('h1').get().reverse(), function (i, item) {
                     var offset = $(item).offset();
                     if (offset.top < top) {
                         $('#leagueImg').attr('src', '/Content/Images/League/' + $(item).data('slug') + '.png');
@@ -27,4 +27,15 @@
             });
         });
     </script>
+}
+
+@section style
+{
+    <style>
+        @@media (max-width: 1280px) {
+            .content {
+                width: 600px;
+            }
+        }
+    </style>
 }
