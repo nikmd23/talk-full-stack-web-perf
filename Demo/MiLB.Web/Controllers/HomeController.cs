@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
@@ -14,16 +15,19 @@ namespace MiLB.Web.Controllers
 
         public ActionResult Index()
         {
+            Trace.TraceInformation("Displaying home page.");
             return View(dataContext.Mascots.Where(m => m.IsHero).Single());
         }
 
         public ActionResult All()
         {
+            Trace.TraceInformation("Displaying all mascots.");
             return View(dataContext.Mascots.ToList());
         }
 
         public ActionResult League(string id)
         {
+            Trace.TraceInformation("Displaying mascots from league with id: " + id);
             var mascots = dataContext.Mascots
                     .Where(m => m.Team.League.Slug.Equals(id, StringComparison.InvariantCultureIgnoreCase));
 
@@ -40,6 +44,7 @@ namespace MiLB.Web.Controllers
 
         public ActionResult Champions()
         {
+            Trace.TraceInformation("Displaying Mascot Mania winners.");
             var mascots = dataContext.Mascots.Where(m => m.IsChampion).ToList();
 
             return View(mascots);
