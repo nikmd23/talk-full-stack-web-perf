@@ -114,12 +114,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Rum\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RumController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -127,7 +129,11 @@
     <Compile Include="Models\DataContextInitializer.cs" />
     <Compile Include="Models\League.cs" />
     <Compile Include="Models\Mascot.cs" />
+    <Compile Include="Models\NavigationTiming.cs" />
+    <Compile Include="Models\ResourceTiming.cs" />
+    <Compile Include="Models\Rum.cs" />
     <Compile Include="Models\Team.cs" />
+    <Compile Include="Models\UserTiming.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -642,6 +648,8 @@
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
+    <Content Include="Scripts\rum.js" />
+    <Content Include="Scripts\timing.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Snippets.html" />
     <Content Include="Web.config" />
