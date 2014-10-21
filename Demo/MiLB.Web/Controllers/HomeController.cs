@@ -34,6 +34,16 @@ namespace MiLB.Web.Controllers
             return View(mascots.ToList());
         }
 
+        public ActionResult Mascot(string id)
+        {
+            if (string.IsNullOrWhiteSpace(id))
+                return HttpNotFound();
+
+            var mascot = dataContext.Mascots.Single(m => m.Slug == id);
+
+            return View(mascot);
+        }
+
         public void ThirdPartyScript()
         {
             Thread.Sleep(3000);

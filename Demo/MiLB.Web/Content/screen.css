@@ -25,6 +25,13 @@ h1 {
 p {
     margin-top: 1em;
 }
+a {
+    color: #018E0E;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .clear {
 	clear:both;
 	font-size:0;
@@ -120,11 +127,13 @@ footer {
 }
 .mascot-card div {
     width: 150px; 
-    height: 190px; 
+    height: 190px;
+    margin-bottom: 5px;
 }
 .mascot-headshot div {
     width: 375px; 
     height: 450px; 
+    margin-bottom: 5px;
 }
 .mascot-card img, .mascot-headshot img {
     position: absolute; 
@@ -133,4 +142,11 @@ footer {
 }
 .mascot-card h3, .mascot-card h4, .mascot-headshot h3, .mascot-headshoth4 {
     text-shadow: 1px 1px 3px #FFF;
+}
+.twitter-widget {
+    float: right;
+    width: 400px !important;
+}
+.twitter-widget iframe { 
+    height: 450px !important;
 }

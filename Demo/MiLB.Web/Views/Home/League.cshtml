@@ -12,7 +12,18 @@
         <div style="background-image: url('/Content/Images/MascotSmall/@mascot.Team.League.Slug/@(mascot.Slug).png');">
             <img src="/Content/Images/Team/@(mascot.Team.Slug).png" />
         </div>
-        <h3>@mascot.Name</h3>
-        <h4>@mascot.Team.Name</h4>
+
+        @if (!string.IsNullOrWhiteSpace(mascot.TwitterHandle))
+        {
+            <a href="/home/mascot/@mascot.Slug">
+                <h3>@mascot.Name</h3>
+                <h4>@mascot.Team.Name</h4>
+            </a>
+        }
+        else
+        {
+            <h3>@mascot.Name</h3>
+            <h4>@mascot.Team.Name</h4>
+        }
     </div>
 }
