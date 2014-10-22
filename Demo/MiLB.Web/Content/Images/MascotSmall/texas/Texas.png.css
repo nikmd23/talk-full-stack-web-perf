@@ -5,47 +5,47 @@ This is an example of how to use the image sprite in your own CSS files
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 0;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 0;
 }
 .deuce {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -190px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -190px;
 }
 .hornsby {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -380px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -380px;
 }
 .louie-2 {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -570px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -570px;
 }
 .rocky-rockhound {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -760px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -760px;
 }
 .rusty-hook {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -950px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -950px;
 }
 .shelly-the-horse {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -1140px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -1140px;
 }
 .sinker-the-lake-creature {
 /* You may have to set 'display: block' */
 	width: 150px;
 	height: 190px;
-	background: url('/Content/Images/MascotSmall/texas/Texas.png') 0 -1330px;
+	background: url('/Content/Images/MascotSmall/texas/Texas.jpg') 0 -1330px;
 }

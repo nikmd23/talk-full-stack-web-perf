@@ -479,12 +479,8 @@
     <Content Include="Content\Images\MascotSmall\texas\rusty-hook.png" />
     <Content Include="Content\Images\MascotSmall\texas\shelly-the-horse.png" />
     <Content Include="Content\Images\MascotSmall\texas\sinker-the-lake-creature.png" />
-    <Content Include="Content\Images\MascotSmall\texas\Texas.png">
-      <DependentUpon>Texas.sprite</DependentUpon>
-    </Content>
-    <Content Include="Content\Images\MascotSmall\texas\Texas.png.css">
-      <DependentUpon>Texas.png</DependentUpon>
-    </Content>
+    <Content Include="Content\Images\MascotSmall\texas\Texas.jpg" />
+    <Content Include="Content\Images\MascotSmall\texas\Texas.png.css" />
     <Content Include="Content\Images\Team\aberdeen-ironbirds.png" />
     <Content Include="Content\Images\Team\akron-aeros.png" />
     <Content Include="Content\Images\Team\albuquerque-isotopes.png" />
@@ -652,15 +648,6 @@
     <Content Include="Global.asax" />
     <Content Include="Content\validation.css" />
     <Content Include="Content\Images\MascotSmall\texas\Texas.sprite" />
-    <Content Include="Content\Images\MascotSmall\texas\Texas.png.map">
-      <DependentUpon>Texas.png</DependentUpon>
-    </Content>
-    <Content Include="Content\Images\MascotSmall\texas\Texas.png.less">
-      <DependentUpon>Texas.png</DependentUpon>
-    </Content>
-    <Content Include="Content\Images\MascotSmall\texas\Texas.png.scss">
-      <DependentUpon>Texas.png</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
