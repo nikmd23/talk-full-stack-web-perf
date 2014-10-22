@@ -1,0 +1,51 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-ballapeno() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 0;
+}
+@mixin sprite-deuce() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -190px;
+}
+@mixin sprite-hornsby() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -380px;
+}
+@mixin sprite-louie-2() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -570px;
+}
+@mixin sprite-rocky-rockhound() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -760px;
+}
+@mixin sprite-rusty-hook() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -950px;
+}
+@mixin sprite-shelly-the-horse() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -1140px;
+}
+@mixin sprite-sinker-the-lake-creature() {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('Texas.png') 0 -1330px;
+}

@@ -6,11 +6,11 @@
     <title>Mascots of MiLB - @ViewBag.Title</title>
     @RenderSection("meta", required:false)
 
-    @*@Styles.Render("~/Content/css")*@
+    @Styles.Render("~/Content/css")
 
-    <link href="~/Content/normalize.css" rel="stylesheet" />
+    @*<link href="~/Content/normalize.css" rel="stylesheet" />
     <link href="~/Content/validation.css" rel="stylesheet" />
-    <link href="~/Content/screen.css" rel="stylesheet" />
+    <link href="~/Content/screen.css" rel="stylesheet" />*@
     @RenderSection("style", required: false)
 </head>
 <body>
@@ -43,10 +43,11 @@
         </div>
     </footer>
 
-    <script src="~/Scripts/jquery-2.1.0.js"></script>
-    @RenderSection("scripts", required:false)
+    @*<script src="~/Scripts/jquery-2.1.0.js"></script>
     <script src="~/Scripts/timing.js"></script>
-    <script src="~/Scripts/rum.js"></script>
+    <script src="~/Scripts/rum.js"></script>*@
+    @Scripts.Render("~/Scripts/js")
+    @RenderSection("scripts", required: false)
 </body>
 
 </html>

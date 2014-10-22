@@ -11,8 +11,14 @@ namespace MiLB.Web
 
             bundles.Add(new StyleBundle("~/Content/css")
                 .Include("~/Content/normalize.css")
-                .Include("~/Content/validation.css")
-                .Include("~/Content/screen.css"));
+                //.Include("~/Content/validation.css")
+                .Include("~/Content/screen.css")
+                .Include("~/Content/Images/MascotSmall/texas/Texas.png.css"));
+
+            bundles.Add(new ScriptBundle("~/Scripts/js")
+                .Include("~/Scripts/jquery-{version}.js")
+                .Include("~/Scripts/timing.js")
+                .Include("~/Scripts/rum.js"));
         }
     }
 }
