@@ -4,7 +4,19 @@
     ViewBag.Title = Model.Name;
 }
 
+<script>performance.mark('load_twitter_script_start');</script>
 <script src="//platform.twitter.com/widgets.js"></script>
+<script>
+    performance.mark('load_twitter_script_end');
+    performance.measure('load_twitter_script_time', 'load_twitter_script_start', 'load_twitter_script_end');
+    twttr.ready(function(twttr) {
+        performance.mark('twitter_ready');
+        twttr.events.bind('rendered', function (event) {
+            performance.mark('twitter_rendered');
+            performance.measure('twitter_render_time', 'twitter_ready', 'twitter_rendered');
+        });
+    });
+</script>
 
 <h1>@Model.Name's Tweets</h1>
 
