@@ -57,7 +57,9 @@
     }
 })(this);
 
-$(function() {
-    performance.mark('sample_mark');
-    performance.measure('from_start_to_sample', 'responseStart', 'sample_mark');
+$(function () {
+    if (performance.mark !== undefined) {
+        performance.mark('sample_mark');
+        performance.measure('from_start_to_sample', 'responseStart', 'sample_mark');
+    }
 });
