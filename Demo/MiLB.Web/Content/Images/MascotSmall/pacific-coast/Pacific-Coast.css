@@ -1,0 +1,99 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.archie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 0;
+}
+.boudreaux-d-nutria {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -190px;
+}
+.bumble {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -380px;
+}
+.cooper {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -570px;
+}
+.cosmo {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -760px;
+}
+.cubbie-bear {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -950px;
+}
+.dinger {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -1140px;
+}
+.kino-bambino {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -1330px;
+}
+.orbit {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -1520px;
+}
+.ozzie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -1710px;
+}
+.parker {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -1900px;
+}
+.rhubarb-the-reindeer {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -2090px;
+}
+.rockey-redbird {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -2280px;
+}
+.sox-the-fox {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -2470px;
+}
+.spike {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -2660px;
+}
+.stormy {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.png') 0 -2850px;
+}

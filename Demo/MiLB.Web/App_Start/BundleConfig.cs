@@ -17,6 +17,7 @@ namespace MiLB.Web
                 .Include("~/Content/Images/MascotSmall/Southern/Southern.css")
                 .Include("~/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.css")
                 .Include("~/Content/Images/MascotSmall/Pioneer/Pioneer.css")
+                .Include("~/Content/Images/MascotSmall/Pacific-Coast/Pacific-Coast.css")
                 .Include("~/Content/Images/MascotSmall/northwest/Northwest.css")
                 .Include("~/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.css")
                 .Include("~/Content/Images/MascotSmall/Midwest/Midwest.css")

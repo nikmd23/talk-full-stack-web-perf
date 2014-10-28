@@ -450,6 +450,8 @@
     <Content Include="Content\Images\MascotSmall\pacific-coast\kino-bambino.png" />
     <Content Include="Content\Images\MascotSmall\pacific-coast\orbit.png" />
     <Content Include="Content\Images\MascotSmall\pacific-coast\ozzie.png" />
+    <Content Include="Content\Images\MascotSmall\pacific-coast\Pacific-Coast.css" />
+    <Content Include="Content\Images\MascotSmall\pacific-coast\Pacific-Coast.png" />
     <Content Include="Content\Images\MascotSmall\pacific-coast\parker.png" />
     <Content Include="Content\Images\MascotSmall\pacific-coast\rhubarb-the-reindeer.png" />
     <Content Include="Content\Images\MascotSmall\pacific-coast\rockey-redbird.png" />
