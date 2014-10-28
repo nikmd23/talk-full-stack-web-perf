@@ -150,3 +150,9 @@ footer {
 .twitter-widget iframe { 
     height: 450px !important;
 }
+
+@media (max-width: 1280px) {
+    .content {
+        width: 600px;
+    }
+}

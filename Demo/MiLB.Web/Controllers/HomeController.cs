@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
+using CourtesyFlush;
 using MiLB.Web.Models;
 
 namespace MiLB.Web.Controllers
@@ -13,12 +14,14 @@ namespace MiLB.Web.Controllers
     {
         private readonly DataContext dataContext = new DataContext();
 
+        [FlushHead(Title = "Home Page")]
         public ActionResult Index()
         {
             Trace.TraceInformation("Displaying home page.");
             return View(dataContext.Mascots.Where(m => m.IsHero).Single());
         }
 
+        [FlushHead(Title = "All Mascots")]
         public ActionResult All()
         {
             Trace.TraceInformation("Displaying all mascots.");
@@ -54,6 +57,9 @@ namespace MiLB.Web.Controllers
 
         public ActionResult Champions()
         {
+            ViewBag.Title = string.Format("Champions ({0})", DateTime.Now.Year);
+            this.FlushHead();
+
             Trace.TraceInformation("Displaying Mascot Mania winners.");
             var mascots = dataContext.Mascots.Where(m => m.IsChampion).ToList();
 

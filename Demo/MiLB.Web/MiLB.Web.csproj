@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CourtesyFlush">
+      <HintPath>..\packages\CourtesyFlush.1.1.0\lib\net45\CourtesyFlush.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -694,6 +697,7 @@
     <Content Include="Scripts\jquery-2.1.0.min.map" />
     <Content Include="Views\Home\Champions.cshtml" />
     <Content Include="Views\Home\Mascot.cshtml" />
+    <Content Include="Views\Shared\_Head.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\League.cshtml" />
