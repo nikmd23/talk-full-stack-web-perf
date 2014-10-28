@@ -20,7 +20,7 @@
                 $.each($('h1').get().reverse(), function (i, item) {
                     var offset = $(item).offset();
                     if (offset.top < top) {
-                        $('#leagueImg').attr('src', '//az681741.vo.msecnd.net/Content/Images/League/' + $(item).data('slug') + '.png');
+                        $('#leagueImg').attr('src', '//mascots-imgs.azurewebsites.net/Content/Images/League/' + $(item).data('slug') + '.png');
                         return false;
                     }
                 });
