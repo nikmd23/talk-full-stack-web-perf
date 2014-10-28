@@ -143,6 +143,9 @@ footer {
 .mascot-card h3, .mascot-card h4, .mascot-headshot h3, .mascot-headshoth4 {
     text-shadow: 1px 1px 3px #FFF;
 }
+.mascot-large {
+    float: left;
+}
 .twitter-widget {
     float: right;
     width: 395px !important;
@@ -150,7 +153,10 @@ footer {
 .twitter-widget iframe { 
     height: 450px !important;
 }
-
+.twitter-widget + h2 {
+    text-align: center;
+    clear: both;
+}
 @media (max-width: 1280px) {
     .content {
         width: 600px;

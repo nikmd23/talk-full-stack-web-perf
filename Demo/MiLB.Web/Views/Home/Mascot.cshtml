@@ -20,11 +20,11 @@
 
 <h1>@Model.Name's Tweets</h1>
 
-<img src="/Content/Images/MascotLarge/@(Model.Slug).png"/>
+<img class="mascot-large" src="/Content/Images/MascotLarge/@(Model.Slug).png"/>
 
 <div class="twitter-widget">
     <a class="twitter-timeline" href="https://twitter.com/@Model.TwitterHandle" data-widget-id="524597815054323712" data-screen-name="@Model.TwitterHandle" data-chrome="noheader nofooter noborders transparent" data-link-color="#018E0E">Tweets by @@@Model.TwitterHandle</a>
     @*<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>*@
 </div>
 
-<h2 style="text-align: center;">More Tweets <a href="http://www.twitter.com/@Model.TwitterHandle">@@@Model.TwitterHandle</a></h2>
+<h2>More Tweets <a href="http://www.twitter.com/@Model.TwitterHandle">@@@Model.TwitterHandle</a></h2>
