@@ -1,0 +1,51 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.barley {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 0;
+}
+.bob-brown-bear {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -190px;
+}
+.crater {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -380px;
+}
+.dusty {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -570px;
+}
+.humphrey-hawk {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -760px;
+}
+.otto-the-spokanasaurus {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -950px;
+}
+.sluggo {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -1140px;
+}
+.webbly {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Northwest/Northwest.png') 0 -1330px;
+}

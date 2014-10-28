@@ -1,0 +1,63 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.babe-ruff {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 0;
+}
+.big-mo {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -190px;
+}
+.chimpy {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -380px;
+}
+.homer-the-pole-cat {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -570px;
+}
+.kazoo {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -760px;
+}
+.looie-the-lookout {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -950px;
+}
+.slugger {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -1140px;
+}
+.southpaw {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -1330px;
+}
+.teddy {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -1520px;
+}
+.trusty {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Southern/Southern.png') 0 -1710px;
+}

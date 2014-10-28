@@ -1,0 +1,87 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.buddy-bat {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 0;
+}
+.celery {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -190px;
+}
+.chopper {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -380px;
+}
+.hambone {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -570px;
+}
+.homer-the-dragon {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -760px;
+}
+.louseal {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -950px;
+}
+.muddy-the-mud-hen {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -1140px;
+}
+.paws {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -1330px;
+}
+.quills {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -1520px;
+}
+.rip-tide {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -1710px;
+}
+.rowdie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -1900px;
+}
+.scooch {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -2090px;
+}
+.spikes {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -2280px;
+}
+.wool-e-bull {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/International/International.png') 0 -2470px;
+}

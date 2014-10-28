@@ -1,0 +1,63 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.bernie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 0;
+}
+.gigante {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -190px;
+}
+.kaboom {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -380px;
+}
+.splash {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -570px;
+}
+.thunder {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -760px;
+}
+.tipper-t-bull {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -950px;
+}
+.torch {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -1140px;
+}
+.tremor {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -1330px;
+}
+.wally-the-walnut {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -1520px;
+}
+.wooly-bully {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/California/California.png') 0 -1710px;
+}

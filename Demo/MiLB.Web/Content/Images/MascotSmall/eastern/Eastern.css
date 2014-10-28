@@ -1,0 +1,75 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.boomer {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 0;
+}
+.c-wolf {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -190px;
+}
+.crazy-hot-dog-vendor {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -380px;
+}
+.fungo-the-fisher-cat {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -570px;
+}
+.hot-dog-horse {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -760px;
+}
+.louie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -950px;
+}
+.nutzy {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -1140px;
+}
+.orbit-2 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -1330px;
+}
+.rascal {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -1520px;
+}
+.rocky {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -1710px;
+}
+.slugger-the-sea-dog {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -1900px;
+}
+.steamer {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Eastern/Eastern.png') 0 -2090px;
+}

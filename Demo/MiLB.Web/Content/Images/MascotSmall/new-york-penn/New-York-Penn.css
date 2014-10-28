@@ -1,0 +1,87 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.abner {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 0;
+}
+.boomer-2 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -190px;
+}
+.bubba-grape {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -380px;
+}
+.canaligator {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -570px;
+}
+.champ {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -760px;
+}
+.ct-the-tiger {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -950px;
+}
+.ferrous {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -1140px;
+}
+.homer-2 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -1330px;
+}
+.ike-the-spike {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -1520px;
+}
+.rascal-3 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -1710px;
+}
+.sandy-the-seagull {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -1900px;
+}
+.scooter-the-holy-cow {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -2090px;
+}
+.scrappy {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -2280px;
+}
+.south-paw {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/New-York-Penn/New-York-Penn.png') 0 -2470px;
+}

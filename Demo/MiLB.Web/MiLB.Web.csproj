@@ -318,6 +318,8 @@
     <Content Include="Content\Images\League\southern.png" />
     <Content Include="Content\Images\League\texas.png" />
     <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\MascotSmall\appalachian\Appalachian.css" />
+    <Content Include="Content\Images\MascotSmall\appalachian\Appalachian.png" />
     <Content Include="Content\Images\MascotSmall\appalachian\baby-jay.png" />
     <Content Include="Content\Images\MascotSmall\appalachian\bingo.png" />
     <Content Include="Content\Images\MascotSmall\appalachian\blooper.png" />
@@ -329,6 +331,8 @@
     <Content Include="Content\Images\MascotSmall\appalachian\slyder.png" />
     <Content Include="Content\Images\MascotSmall\appalachian\tennessee-tess.png" />
     <Content Include="Content\Images\MascotSmall\california\bernie.png" />
+    <Content Include="Content\Images\MascotSmall\california\California.css" />
+    <Content Include="Content\Images\MascotSmall\california\California.png" />
     <Content Include="Content\Images\MascotSmall\california\gigante.png" />
     <Content Include="Content\Images\MascotSmall\california\kaboom.png" />
     <Content Include="Content\Images\MascotSmall\california\splash.png" />
@@ -339,6 +343,8 @@
     <Content Include="Content\Images\MascotSmall\california\wally-the-walnut.png" />
     <Content Include="Content\Images\MascotSmall\california\wooly-bully.png" />
     <Content Include="Content\Images\MascotSmall\carolina\bolt.png" />
+    <Content Include="Content\Images\MascotSmall\carolina\Carolina.css" />
+    <Content Include="Content\Images\MascotSmall\carolina\Carolina.png" />
     <Content Include="Content\Images\MascotSmall\carolina\keyote.png" />
     <Content Include="Content\Images\MascotSmall\carolina\muddy-the-mudcat.png" />
     <Content Include="Content\Images\MascotSmall\carolina\mugsy.png" />
@@ -349,6 +355,8 @@
     <Content Include="Content\Images\MascotSmall\eastern\boomer.png" />
     <Content Include="Content\Images\MascotSmall\eastern\c-wolf.png" />
     <Content Include="Content\Images\MascotSmall\eastern\crazy-hot-dog-vendor.png" />
+    <Content Include="Content\Images\MascotSmall\eastern\Eastern.css" />
+    <Content Include="Content\Images\MascotSmall\eastern\Eastern.png" />
     <Content Include="Content\Images\MascotSmall\eastern\fungo-the-fisher-cat.png" />
     <Content Include="Content\Images\MascotSmall\eastern\hot-dog-horse.png" />
     <Content Include="Content\Images\MascotSmall\eastern\louie.png" />
@@ -362,6 +370,8 @@
     <Content Include="Content\Images\MascotSmall\florida-state\blue.png" />
     <Content Include="Content\Images\MascotSmall\florida-state\cubby.png" />
     <Content Include="Content\Images\MascotSmall\florida-state\d-jay.png" />
+    <Content Include="Content\Images\MascotSmall\florida-state\Florida-State.css" />
+    <Content Include="Content\Images\MascotSmall\florida-state\Florida-State.png" />
     <Content Include="Content\Images\MascotSmall\florida-state\hamilton-r-head.png" />
     <Content Include="Content\Images\MascotSmall\florida-state\klutch.png" />
     <Content Include="Content\Images\MascotSmall\florida-state\manny-the-manatee.png" />
@@ -375,6 +385,8 @@
     <Content Include="Content\Images\MascotSmall\international\chopper.png" />
     <Content Include="Content\Images\MascotSmall\international\hambone.png" />
     <Content Include="Content\Images\MascotSmall\international\homer-the-dragon.png" />
+    <Content Include="Content\Images\MascotSmall\international\International.css" />
+    <Content Include="Content\Images\MascotSmall\international\International.png" />
     <Content Include="Content\Images\MascotSmall\international\louseal.png" />
     <Content Include="Content\Images\MascotSmall\international\muddy-the-mud-hen.png" />
     <Content Include="Content\Images\MascotSmall\international\paws.png" />
@@ -393,6 +405,8 @@
     <Content Include="Content\Images\MascotSmall\midwest\johnny-tincap.png" />
     <Content Include="Content\Images\MascotSmall\midwest\lou-e-loon.png" />
     <Content Include="Content\Images\MascotSmall\midwest\louie-the-lumberking.png" />
+    <Content Include="Content\Images\MascotSmall\midwest\Midwest.css" />
+    <Content Include="Content\Images\MascotSmall\midwest\Midwest.png" />
     <Content Include="Content\Images\MascotSmall\midwest\mr-shucks.png" />
     <Content Include="Content\Images\MascotSmall\midwest\ozzie-t-cougar.png" />
     <Content Include="Content\Images\MascotSmall\midwest\rascal-2.png" />
@@ -409,6 +423,8 @@
     <Content Include="Content\Images\MascotSmall\new-york-penn\ferrous.png" />
     <Content Include="Content\Images\MascotSmall\new-york-penn\homer-2.png" />
     <Content Include="Content\Images\MascotSmall\new-york-penn\ike-the-spike.png" />
+    <Content Include="Content\Images\MascotSmall\new-york-penn\New-York-Penn.css" />
+    <Content Include="Content\Images\MascotSmall\new-york-penn\New-York-Penn.png" />
     <Content Include="Content\Images\MascotSmall\new-york-penn\rascal-3.png" />
     <Content Include="Content\Images\MascotSmall\new-york-penn\sandy-the-seagull.png" />
     <Content Include="Content\Images\MascotSmall\new-york-penn\scooter-the-holy-cow.png" />
@@ -419,6 +435,8 @@
     <Content Include="Content\Images\MascotSmall\northwest\crater.png" />
     <Content Include="Content\Images\MascotSmall\northwest\dusty.png" />
     <Content Include="Content\Images\MascotSmall\northwest\humphrey-hawk.png" />
+    <Content Include="Content\Images\MascotSmall\northwest\Northwest.css" />
+    <Content Include="Content\Images\MascotSmall\northwest\Northwest.png" />
     <Content Include="Content\Images\MascotSmall\northwest\otto-the-spokanasaurus.png" />
     <Content Include="Content\Images\MascotSmall\northwest\sluggo.png" />
     <Content Include="Content\Images\MascotSmall\northwest\webbly.png" />
@@ -446,6 +464,8 @@
     <Content Include="Content\Images\MascotSmall\pioneer\oggie.png" />
     <Content Include="Content\Images\MascotSmall\pioneer\ollie-osprey.png" />
     <Content Include="Content\Images\MascotSmall\pioneer\orbit-3.png" />
+    <Content Include="Content\Images\MascotSmall\pioneer\Pioneer.css" />
+    <Content Include="Content\Images\MascotSmall\pioneer\Pioneer.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\auggie.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\big-l.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\buster.png" />
@@ -458,6 +478,8 @@
     <Content Include="Content\Images\MascotSmall\south-atlantic\reedy-ripit.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\romey.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\sherman-the-shorebird.png" />
+    <Content Include="Content\Images\MascotSmall\south-atlantic\South-Atlantic.css" />
+    <Content Include="Content\Images\MascotSmall\south-atlantic\South-Atlantic.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\tim-e-gator.png" />
     <Content Include="Content\Images\MascotSmall\south-atlantic\woolie.png" />
     <Content Include="Content\Images\MascotSmall\southern\babe-ruff.png" />
@@ -467,6 +489,8 @@
     <Content Include="Content\Images\MascotSmall\southern\kazoo.png" />
     <Content Include="Content\Images\MascotSmall\southern\looie-the-lookout.png" />
     <Content Include="Content\Images\MascotSmall\southern\slugger.png" />
+    <Content Include="Content\Images\MascotSmall\southern\Southern.css" />
+    <Content Include="Content\Images\MascotSmall\southern\Southern.png" />
     <Content Include="Content\Images\MascotSmall\southern\southpaw.png" />
     <Content Include="Content\Images\MascotSmall\southern\teddy.png" />
     <Content Include="Content\Images\MascotSmall\southern\trusty.png" />
@@ -479,7 +503,7 @@
     <Content Include="Content\Images\MascotSmall\texas\shelly-the-horse.png" />
     <Content Include="Content\Images\MascotSmall\texas\sinker-the-lake-creature.png" />
     <Content Include="Content\Images\MascotSmall\texas\Texas.jpg" />
-    <Content Include="Content\Images\MascotSmall\texas\Texas.png.css" />
+    <Content Include="Content\Images\MascotSmall\texas\Texas.css" />
     <Content Include="Content\Images\Team\aberdeen-ironbirds.png" />
     <Content Include="Content\Images\Team\akron-aeros.png" />
     <Content Include="Content\Images\Team\albuquerque-isotopes.png" />
@@ -646,7 +670,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\validation.css" />
-    <Content Include="Content\Images\MascotSmall\texas\Texas.sprite" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />

@@ -1,0 +1,99 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.big-lug {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 0;
+}
+.buzz {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -190px;
+}
+.crash-the-river-rascal {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -380px;
+}
+.fang-t-rattler {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -570px;
+}
+.heater {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -760px;
+}
+.homer {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -950px;
+}
+.johnny-tincap {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -1140px;
+}
+.lou-e-loon {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -1330px;
+}
+.louie-the-lumberking {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -1520px;
+}
+.mr-shucks {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -1710px;
+}
+.ozzie-t-cougar {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -1900px;
+}
+.rascal-2 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -2090px;
+}
+.roscoe-the-grease-monkey {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -2280px;
+}
+.skipper {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -2470px;
+}
+.snappy-d-turtle {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -2660px;
+}
+.swoop {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Midwest/Midwest.png') 0 -2850px;
+}

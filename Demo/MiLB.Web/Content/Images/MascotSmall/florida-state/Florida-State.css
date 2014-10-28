@@ -1,0 +1,75 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.ace {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 0;
+}
+.blue {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -190px;
+}
+.cubby {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -380px;
+}
+.d-jay {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -570px;
+}
+.hamilton-r-head {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -760px;
+}
+.klutch {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -950px;
+}
+.manny-the-manatee {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -1140px;
+}
+.marty-the-marauder {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -1330px;
+}
+.miss-a-miracle {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -1520px;
+}
+.phinley {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -1710px;
+}
+.robbie-the-redbird {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -1900px;
+}
+.stoney {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Florida-State/Florida-State.png') 0 -2090px;
+}

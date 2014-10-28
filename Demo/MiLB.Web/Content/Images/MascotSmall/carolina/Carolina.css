@@ -1,0 +1,51 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.bolt {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 0;
+}
+.keyote {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -190px;
+}
+.muddy-the-mudcat {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -380px;
+}
+.mugsy {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -570px;
+}
+.rocky-bluewinkle {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -760px;
+}
+.southpaw-2 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -950px;
+}
+.splash-pelican {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -1140px;
+}
+.uncle-slam {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Carolina/Carolina.png') 0 -1330px;
+}

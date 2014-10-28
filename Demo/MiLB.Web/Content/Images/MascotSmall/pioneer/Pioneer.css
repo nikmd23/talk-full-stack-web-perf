@@ -1,0 +1,51 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.charlie-the-chukar {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 0;
+}
+.clark-the-cougar {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -190px;
+}
+.corky {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -380px;
+}
+.homer-3 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -570px;
+}
+.hootz {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -760px;
+}
+.oggie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -950px;
+}
+.ollie-osprey {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -1140px;
+}
+.orbit-3 {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/Pioneer/Pioneer.png') 0 -1330px;
+}

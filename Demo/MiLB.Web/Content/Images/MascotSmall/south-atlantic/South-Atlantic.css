@@ -1,0 +1,87 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.auggie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 0;
+}
+.big-l {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -190px;
+}
+.buster {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -380px;
+}
+.charlie-t-riverdog {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -570px;
+}
+.chuck {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -760px;
+}
+.conrad-the-crawdad {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -950px;
+}
+.gnate-the-gnat {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -1140px;
+}
+.guilford-the-grasshopper {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -1330px;
+}
+.mr-moon {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -1520px;
+}
+.reedy-ripit {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -1710px;
+}
+.romey {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -1900px;
+}
+.sherman-the-shorebird {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -2090px;
+}
+.tim-e-gator {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -2280px;
+}
+.woolie {
+/* You may have to set 'display: block' */
+	width: 150px;
+	height: 190px;
+	background: url('//mascots-imgs.azurewebsites.net/Content/Images/MascotSmall/South-Atlantic/South-Atlantic.png') 0 -2470px;
+}
