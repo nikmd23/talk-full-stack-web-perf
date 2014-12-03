@@ -4,12 +4,11 @@
     ViewBag.Title = Model.Name;
 }
 
-<script>performance.mark('load_twitter_script_start');</script>
 <script src="//platform.twitter.com/widgets.js"></script>
 <script>
     performance.mark('load_twitter_script_end');
-    performance.measure('load_twitter_script_time', 'load_twitter_script_start', 'load_twitter_script_end');
-    twttr.ready(function(twttr) {
+
+    twttr.ready(function (twttr) {
         performance.mark('twitter_ready');
         twttr.events.bind('rendered', function (event) {
             performance.mark('twitter_rendered');
@@ -24,7 +23,6 @@
 
 <div class="twitter-widget">
     <a class="twitter-timeline" href="https://twitter.com/@Model.TwitterHandle" data-widget-id="524597815054323712" data-screen-name="@Model.TwitterHandle" data-chrome="noheader nofooter noborders transparent" data-link-color="#018E0E">Tweets by @@@Model.TwitterHandle</a>
-    @*<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>*@
 </div>
 
 <h2>More Tweets <a href="http://www.twitter.com/@Model.TwitterHandle">@@@Model.TwitterHandle</a></h2>
