@@ -3,8 +3,8 @@
 
     window.addEventListener('unload', function () {
         var rum = {
-                resources: performance.getEntriesByType('resource'),
                 navigation: performance.timing,
+                resources: performance.getEntriesByType('resource'),
                 marks: performance.getEntriesByType('mark'),
                 measures: performance.getEntriesByType('measure')
             };
