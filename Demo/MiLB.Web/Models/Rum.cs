@@ -15,5 +15,11 @@ namespace MiLB.Web.Models
         public virtual ICollection<UserTiming> Marks { get; set; }
         
         public virtual ICollection<UserTiming> Measures { get; set; }
+
+        public string Referrer { get; set; }
+
+        public string Agent { get; set; }
+
+        public string IpAddress { get; set; }
     }
 }

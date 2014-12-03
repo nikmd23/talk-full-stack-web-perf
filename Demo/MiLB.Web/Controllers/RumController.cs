@@ -8,24 +8,22 @@ namespace MiLB.Web.Controllers
 {
     public class RumController : Controller
     {
-        public ActionResult Index()
-        {
-            return Content("More to come...");
-        }
-
         [HttpPost]
         public ActionResult Submit()
         {
             var serializer = new JsonSerializer();
-            Rum obj;
+            Rum rum;
             using (var sr = new StreamReader(Request.InputStream))
             using (var tr = new JsonTextReader(sr))
             {
-                obj = serializer.Deserialize<Rum>(tr);
+                rum = serializer.Deserialize<Rum>(tr);
             }
 
-            // user agent
-            // referer
+            rum.Referrer = Request.UrlReferrer != null ? Request.UrlReferrer.AbsoluteUri : null;
+            rum.Agent = Request.UserAgent;
+            rum.IpAddress = Request.UserHostAddress;
+
+            // persist rum somewhere...
 
             return new HttpStatusCodeResult(HttpStatusCode.Accepted);
         }

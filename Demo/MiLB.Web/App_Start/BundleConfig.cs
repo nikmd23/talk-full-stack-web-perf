@@ -30,7 +30,6 @@ namespace MiLB.Web
 
             bundles.Add(new ScriptBundle("~/Scripts/js")
                 .Include("~/Scripts/jquery-{version}.js")
-                .Include("~/Scripts/timing.js")
                 .Include("~/Scripts/rum.js"));
         }
     }
