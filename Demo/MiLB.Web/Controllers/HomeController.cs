@@ -15,6 +15,7 @@ namespace MiLB.Web.Controllers
         private readonly DataContext dataContext = new DataContext();
 
         [FlushHead(Title = "Home Page")]
+        [OutputCache(Duration = 7200)]
         public ActionResult Index()
         {
             Trace.TraceInformation("Displaying home page.");
@@ -22,12 +23,14 @@ namespace MiLB.Web.Controllers
         }
 
         [FlushHead(Title = "All Mascots")]
+        [OutputCache(Duration = 7200)]
         public ActionResult All()
         {
             Trace.TraceInformation("Displaying all mascots.");
             return View(dataContext.Mascots.ToList());
         }
 
+        [OutputCache(Duration = 7200)]
         public ActionResult League(string id)
         {
             Trace.TraceInformation("Displaying mascots from league with id: " + id);
@@ -37,6 +40,7 @@ namespace MiLB.Web.Controllers
             return View(mascots.ToList());
         }
 
+        [OutputCache(Duration = 7200)]
         public ActionResult Mascot(string id)
         {
             if (string.IsNullOrWhiteSpace(id))
@@ -55,6 +59,7 @@ namespace MiLB.Web.Controllers
             Response.Write("console.log('Downloaded 3rd party script.'); function init(){ console.log('Initialized 3rd party script.'); }");
         }
 
+        [OutputCache(Duration = 7200)]
         public ActionResult Champions()
         {
             ViewBag.Title = string.Format("Champions ({0})", DateTime.Now.Year);
