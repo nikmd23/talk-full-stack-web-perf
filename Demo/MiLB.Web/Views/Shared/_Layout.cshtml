@@ -20,5 +20,9 @@
         <script src="~/Scripts/rum.js"></script>*@
     @Scripts.Render("~/Scripts/js")
     @RenderSection("scripts", required: false)
+
+    @if (ViewBag.QueryTime != null) { 
+    <!-- { "db": @ViewBag.QueryTime } -->
+    }
 </body>
 </html>
