@@ -9,10 +9,13 @@
     @Styles.Render("~/Content/css")
 
     @*<link href="~/Content/normalize.css" rel="stylesheet" />
-    <link href="~/Content/validation.css" rel="stylesheet" />
-    <link href="~/Content/screen.css" rel="stylesheet" />*@
+        <link href="~/Content/validation.css" rel="stylesheet" />
+        <link href="~/Content/screen.css" rel="stylesheet" />*@
 </head>
 <body>
+    @if(Request.IsLocal){
+        <div style="background-color: #FFDC00; padding: 0.5em; text-align: center; color: #111; font-size: 16pt;">LOCAL DEV SITE</div>
+    }
     <div id="container">
         <header>
             <div id="header_center">
