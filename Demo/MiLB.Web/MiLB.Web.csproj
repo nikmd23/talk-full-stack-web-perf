@@ -698,6 +698,7 @@
     <Content Include="Views\Home\Champions.cshtml" />
     <Content Include="Views\Home\Mascot.cshtml" />
     <Content Include="Views\Shared\_Head.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\League.cshtml" />

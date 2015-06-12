@@ -52,6 +52,21 @@ namespace MiLB.Web.Controllers
             return View(allMascots);
         }
 
+        public ActionResult Search(string q)
+        {
+            ViewBag.Title = "Mascot Search: '" + Server.HtmlEncode(q) + "'";
+            this.FlushHead();
+
+            ViewBag.Query = q;
+            Trace.TraceInformation("Mascots search: '" + Server.HtmlEncode(q) + "'");
+
+            var stopwatch = Stopwatch.StartNew();
+            var allMascots = dataContext.Mascots.Where(m => m.Name.Contains(q)).ToList();
+            ViewBag.QueryTime = stopwatch.ElapsedMilliseconds;
+
+            return View(allMascots);
+        }
+
         [OutputCache(Duration = 7200)]
         public ActionResult League(string id)
         {

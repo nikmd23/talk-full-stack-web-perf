@@ -22,6 +22,12 @@
     <h1>Congratulations @Model.Name!</h1>
 
     <img src="//mascots-imgs.azurewebsites.net/Content/Images/MascotLarge/@(Model.Slug).png" style="width: 95%" />
+
+    <h1>Search</h1>
+
+    <form action="/home/search" method="get">
+        <input type="search" name="q" style="width:95%; padding: 0.5em 0 0.5em 0.5em; font-size: 14px;" placeholder="Search for your favorite mascot!" />
+    </form>
 </div>
 
 <div class="column" style="text-align: center;">

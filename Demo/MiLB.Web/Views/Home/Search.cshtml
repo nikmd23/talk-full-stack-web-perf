@@ -1,0 +1,29 @@
+﻿@model List<Mascot>
+
+@{
+    ViewBag.Title = Model.First().Team.League.Name;
+}
+
+<h1>Mascot Search: @Model.Count results for '<em>@ViewBag.Query</em>'</h1>
+
+@foreach (var mascot in Model)
+{
+    <div class="mascot-card">
+        <div class="@mascot.Slug">
+            <img src="//mascots-imgs.azurewebsites.net/Content/Images/Team/@(mascot.Team.Slug).png" width="50" height="50" />
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(mascot.TwitterHandle))
+        {
+            <a href="/home/mascot/@mascot.Slug">
+                <h3>@mascot.Name</h3>
+                <h4>@mascot.Team.Name</h4>
+            </a>
+        }
+        else
+        {
+            <h3>@mascot.Name</h3>
+            <h4>@mascot.Team.Name</h4>
+        }
+    </div>
+}
