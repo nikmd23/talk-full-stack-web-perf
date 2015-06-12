@@ -21,8 +21,8 @@
     @Scripts.Render("~/Scripts/js")
     @RenderSection("scripts", required: false)
 
-    @if (ViewBag.QueryTime != null) { 
-    <!-- { "db": @ViewBag.QueryTime } -->
-    }
+
+    <!-- {@if (ViewBag.QueryTime != null) { <text>"db": @ViewBag.QueryTime,</text>}@if (ViewBag.ActionTime != null){ <text>"action": @ViewBag.ActionTime</text>} } -->
+    
 </body>
 </html>

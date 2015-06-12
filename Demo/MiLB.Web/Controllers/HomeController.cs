@@ -14,6 +14,18 @@ namespace MiLB.Web.Controllers
     {
         private readonly DataContext dataContext = new DataContext();
 
+        protected override void OnActionExecuting(ActionExecutingContext filterContext)
+        {
+            filterContext.HttpContext.Items["actionTimer"] = Stopwatch.StartNew();
+        }
+
+        protected override void OnActionExecuted(ActionExecutedContext filterContext)
+        {
+            var stopwatch = filterContext.HttpContext.Items["actionTimer"] as Stopwatch;
+            if (stopwatch != null)
+                filterContext.Controller.ViewBag.ActionTime = stopwatch.ElapsedMilliseconds;
+        }
+
         [FlushHead(Title = "Home Page")]
         [OutputCache(Duration = 7200)]
         public ActionResult Index()
